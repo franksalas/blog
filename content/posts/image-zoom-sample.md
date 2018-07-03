@@ -3,7 +3,7 @@ author: "Misumi Takuma"
 date: 2017-04-01
 linktitle: Image Zoom Sample
 title: Image Zoom Sample
-weight: 10
+weight: 1
 ---
 
 This theme is magnified like the image of Medium.
