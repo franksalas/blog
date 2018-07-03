@@ -1,11 +1,8 @@
-baseurl = "/"
+baseurl = "Your site URL"
 languageCode = "en-us"
-Title = "sal.as"
+Title = "Your site title"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright notice"
-
-theme = "pickles"
-
 
 [params]
   paginate = 10
