@@ -6,10 +6,24 @@
     <description>Recent content on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Math Latex Example</title>
+      <link>/posts/math-latex-example/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/math-latex-example/</guid>
+      <description>Operators \cos (2\theta) = \cos^2 \theta - \sin^2 \theta $$ \cos (2\theta) = \cos^2 \theta - \sin^2 \theta $$
+limits \lim_{x \to \infty} \exp(-x) = 0 $$ \lim_{x \to \infty} \exp(-x) = 0 $$
+Powers and indices n^{22} $n^{22}$
+f(n) = n^5 + 4n^2 + 2 |_{n=17} $$ f(n) = n^5 + 4n^2 + 2 |_{n=17} $$
+Fractions and Binomials \frac{n!}{k!(n-k)!} = \binom{n}{k} $$ \frac{n!}{k!(n-k)!} = \binom{n}{k} $$
+\frac{\frac{1}{x}+\frac{1}{y}}{y-z} $$ \frac{\frac{1}{x}+\frac{1}{y}}{y-z} $$</description>
+    </item>
     
     <item>
       <title>About Hugo</title>
