@@ -8,9 +8,13 @@ from string import punctuation
 def template():
     post_template ="""
     ---\ntitle: {title} \ndate: {year}-{month}-{day}\ntags: \nslug: {slug}\ndraft: true\n---
-    \n\n\n\n{{image location}}
+    \n\n\n\n  {{{{% zoom-img src="/images/{slug}/ "%}}}}
     """
     return post_template
+
+
+
+
 
 
 def fill_md(md_temp,title,slug):
@@ -79,8 +83,6 @@ def main(title):
     bg_slug = slug_title(title_clean)  # create slug
     make_dirs(bg_slug)  # create image directory
     fill_md(md_temp,title,bg_slug)  # load empty template with data and save
-
-
 
 
 
