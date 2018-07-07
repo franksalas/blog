@@ -3,7 +3,7 @@ title: image test page
 date: 2018-07-06
 tags: ['images']
 slug: image-test-page
-draft: true
+draft: false
 ---
     
 ## this is a post
