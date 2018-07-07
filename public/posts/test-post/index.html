@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Math Latex Example</title>
-  <meta property="og:title" content="Math Latex Example" />
-  <meta name="twitter:title" content="Math Latex Example" />
+  <title>test post</title>
+  <meta property="og:title" content="test post" />
+  <meta name="twitter:title" content="test post" />
   
 
   
 
   <meta name="author" content="Francisco Salas"/>
   <meta property="og:site_name" content="sal.as" />
-  <meta property="og:url" content="/posts/math-latex-example/" />
+  <meta property="og:url" content="/posts/test-post/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -29,7 +29,6 @@
   <link rel="stylesheet" href="/css/style.css" />
   <script type="text/javascript" src="/js/bundle.js"></script>
   
-<link rel="stylesheet" href="/css/override.css">
 
 </head>
 
@@ -87,12 +86,12 @@
 
 <article class="p-article">
   <header>
-    <h1>Math Latex Example</h1>
+    <h1>test post</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2017-01-01T00:00:00Z">
-          Jan 1, 2017
+        <time datetime="2018-07-06T00:00:00Z">
+          Jul 6, 2018
         </time>
       </div>
       
@@ -100,621 +99,81 @@
   </header>
   
   <section id="js-article" class="p-article__body">
-    
-
-<h2 id="operators">Operators</h2>
-
-<pre><code class="language-latex">\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
-</code></pre>
-
-<p>$$
-\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
-$$</p>
-
-<h2 id="limits">limits</h2>
-
-<pre><code class="language-latex">\lim_{x \to \infty} \exp(-x) = 0
-</code></pre>
-
-<p>$$
-\lim_{x \to \infty} \exp(-x) = 0
-$$</p>
-
-<h2 id="powers-and-indices">Powers and indices</h2>
-
-<pre><code class="language-latex">n^{22}
-</code></pre>
-
-<p>$n^{22}$</p>
-
-<pre><code class="language-latex">f(n) = n^5 + 4n^2 + 2 |_{n=17}
-</code></pre>
-
-<p>$$
-f(n) = n^5 + 4n^2 + 2 |_{n=17}
-$$</p>
-
-<h2 id="fractions-and-binomials">Fractions and Binomials</h2>
-
-<pre><code class="language-latex">\frac{n!}{k!(n-k)!} = \binom{n}{k}
-</code></pre>
-
-<p>$$
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
-$$</p>
-
-<pre><code class="language-latex">\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
-</code></pre>
-
-<p>$$
-\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
-$$</p>
-
-<h2 id="sums-and-integrals">Sums and integrals</h2>
-
-<pre><code class="language-latex">\sum_{i=1}^{10} t_i
-</code></pre>
-
-<p>$$
-\sum_{i=1}^{10} t_i
-$$</p>
-
-<pre><code class="language-latex">\displaystyle\sum_{i=1}^{10} t_i
-</code></pre>
-
-<p>$$
-\displaystyle\sum_{i=1}^{10} t_i
-$$</p>
-
-<pre><code class="language-latex">\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
-</code></pre>
-
-<p>$$
-\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
-$$</p>
-
-<pre><code class="language-latex">\sum_{\substack{
-   0&lt;i&lt;m \\
-   0&lt;j&lt;n
-  }} 
- P(i,j)
-</code></pre>
-
-<p>$$
-\sum_{\substack{
-   0&lt;i&lt;m <br />
-   0&lt;j&lt;n
-  }}
- P(i,j)
- $$</p>
-
-<hr />
-
-<h2 id="brackets-braces-and-delimiters">Brackets, braces and delimiters</h2>
-
-<pre><code class="language-latex">( a ), [ b ], \{ c \}, | d |, \| e \|,
-\langle f \rangle, \lfloor g \rfloor,
-\lceil h \rceil, \ulcorner i \urcorner
-</code></pre>
-
-<p>$$
-( a ), [ b ], { c }, | d |, | e |,
-\langle f \rangle, \lfloor g \rfloor,
-\lceil h \rceil, \ulcorner i \urcorner
-$$</p>
-
-<h2 id="manual-sizing">Manual sizing</h2>
-
-<pre><code class="language-latex">( \big( \Big( \bigg( \Bigg( word \Bigg)  \bigg) \Big) \big) )
-</code></pre>
-
-<p>$$
-( \big( \Big( \bigg( \Bigg( word \Bigg) \bigg) \Big) \big) )
-$$</p>
-
-<pre><code class="language-latex">\frac{\mathrm d}{\mathrm d x} \left( k g(x) \right)
-</code></pre>
-
-<p>$$
-\frac{\mathrm d}{\mathrm d x} \left( k g(x) \right)
-$$</p>
-
-<h2 id="color">Color</h2>
-
-<pre><code class="language-latex">k = {\color{red}x} \mathbin{\color{blue}-} 2
-</code></pre>
-
-<p>$$
-k = {\color{red}x} \mathbin{\color{blue}-} 2
-$$</p>
-
-<h2 id="manually-specifying-formula-style">Manually Specifying Formula Style</h2>
-
-<pre><code class="language-latex">\begin{equation}
-   C^i_j = {\textstyle \sum_k} A^i_k B^k_j
-\end{equation}
-</code></pre>
-
-<p>$$
-\begin{equation}
-   C^i_j = {\textstyle \sum_k} A^i_k B^k_j
-\end{equation}
-$$</p>
-
-<pre><code class="language-latex">\newcommand{\tsum}[1]{{\textstyle \sum_{#1}}}
-</code></pre>
-
-<p>$$
-\newcommand{\tsum}[1]{{\textstyle \sum_{#1}}}
-$$</p>
-
-<p>$$
-\begin{equation}
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-\end{equation}
-$$</p>
-
-<pre><code class="language-latex">\begin{equation}
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-\end{equation}
-</code></pre>
-
-<h1 id="list-of-mathematical-symbols">List of mathematical symbols</h1>
-
-<h2 id="trigonometric-functions">Trigonometric Functions</h2>
-
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>$\sin$</td>
-<td><code>\sin</code></td>
-<td>$\arcsin$</td>
-<td><code>\arcsin</code></td>
-<td>$\sinh$</td>
-<td><code>\sinh</code></td>
-<td>$\sec$</td>
-<td><code>\sec</code></td>
-</tr>
-
-<tr>
-<td>$\cos$</td>
-<td><code>\cos</code></td>
-<td>$\arccos$</td>
-<td><code>\arccos</code></td>
-<td>$\cosh$</td>
-<td><code>\cosh</code></td>
-<td>$\csc$</td>
-<td><code>\csc</code></td>
-</tr>
-
-<tr>
-<td>$\tan$</td>
-<td><code>\tan</code></td>
-<td>$\arctan$</td>
-<td><code>\arctan</code></td>
-<td>$\tanh$</td>
-<td><code>\tanh</code></td>
-<td>$\cot$</td>
-<td><code>\cot</code></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="other-symbols">Other Symbols</h2>
-
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>$\partial$</td>
-<td><code>\partial</code></td>
-<td>$\imath$</td>
-<td><code>\imath</code></td>
-<td>$\Re$</td>
-<td><code>\Re</code></td>
-<td>$\nabla$</td>
-<td><code>\nabla</code></td>
-<td>$\aleph$</td>
-<td><code>\aleph</code></td>
-</tr>
-
-<tr>
-<td>$\eth$</td>
-<td><code>\eth</code></td>
-<td>$jmath$</td>
-<td><code>\jmath</code></td>
-<td>$\Im$</td>
-<td><code>\Im</code></td>
-<td>$\Box$</td>
-<td><code>\Box</code></td>
-<td>$\beth$</td>
-<td><code>\beth</code></td>
-</tr>
-
-<tr>
-<td>$\hbar$</td>
-<td><code>\hbar</code></td>
-<td>$\ell$</td>
-<td><code>\ell</code></td>
-<td>$\wp$</td>
-<td><code>\wp</code></td>
-<td>$\infty$</td>
-<td><code>\infty</code></td>
-<td>$\gimel$</td>
-<td><code>\gimel</code></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="greek-letters">Greek Letters</h2>
-
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>A and $\alpha$</td>
-<td>A and <code>\alpha</code></td>
-<td>N and $\nu$</td>
-<td>N and <code>\nu</code></td>
-</tr>
-
-<tr>
-<td>B and $\beta$</td>
-<td>B and <code>\beta</code></td>
-<td>$\Xi$ and $\xi$</td>
-<td><code>\Xi</code> and <code>\xi</code></td>
-</tr>
-
-<tr>
-<td>$\Gamma$ and $\gamma$</td>
-<td><code>\Gamma</code> and <code>\gamma</code></td>
-<td>O and o</td>
-<td><code>O</code> and <code>o</code></td>
-</tr>
-
-<tr>
-<td>$\Delta$ and $\delta$</td>
-<td><code>\Delta</code> and <code>\delta</code></td>
-<td>$\Pi$, $\pi$, and $\varpi$</td>
-<td><code>\Pi</code>, <code>\pi</code> and <code>\varpig</code></td>
-</tr>
-
-<tr>
-<td>E,  $\epsilon$, and $\varepsilon$</td>
-<td>E, <code>\epsilon</code>, and <code>\varepsilon</code></td>
-<td>P, $\rho$ and $\varrho$</td>
-<td>P, <code>\rho</code> and <code>\varrho</code></td>
-</tr>
-
-<tr>
-<td>Z and $\zeta$</td>
-<td>Z and <code>\zeta</code></td>
-<td>$\Sigma$, $\sigma$ and $\varsigma$</td>
-<td><code>\Sigma</code>, <code>\sigma</code> and <code>\varsigma</code></td>
-</tr>
-
-<tr>
-<td>H and $\eta$</td>
-<td>H and <code>\eta</code></td>
-<td>T and $\tau$</td>
-<td>T and <code>\tau</code></td>
-</tr>
-
-<tr>
-<td>$\Theta$, $\theta$ and $\vartheta$</td>
-<td><code>\Theta</code>, <code>\theta</code> and <code>\vartheta</code></td>
-<td>$\Upsilon$ and $\upsilon$</td>
-<td><code>\Upsilon</code> ,<code>\upsilon</code></td>
-</tr>
-
-<tr>
-<td>I and $\iota$</td>
-<td>I and <code>\iota</code></td>
-<td>$\Phi$, $\phi$ and $\varphi$</td>
-<td><code>\Phi</code>, <code>\phi</code> and <code>\varphi</code></td>
-</tr>
-
-<tr>
-<td>K, $\kappa$, $\varkappa$</td>
-<td>K, <code>\kappa</code>, <code>\varkappa</code></td>
-<td>X, $\chi$</td>
-<td>X, <code>\chi</code></td>
-</tr>
-
-<tr>
-<td>$\Lambda$, $\lambda$</td>
-<td><code>\Lambda</code>, <code>\lambda</code></td>
-<td>$\Psi$, $\psi$</td>
-<td><code>\Psi</code>, <code>\psi</code></td>
-</tr>
-
-<tr>
-<td>M, $\mu$</td>
-<td>M, <code>\mu</code></td>
-<td>$\Omega$, $\omega$</td>
-<td><code>\Omega</code>, <code>\omega</code></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="delimeters">Delimeters</h2>
-
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>$\uparrow$</td>
-<td><code>\uparrow</code></td>
-<td>${$</td>
-<td><code>\{</code></td>
-<td>$}$</td>
-<td><code>\}</code></td>
-</tr>
-
-<tr>
-<td>$\downarrow$</td>
-<td><code>\downarrow</code></td>
-<td>$\Uparrow$</td>
-<td><code>\Uparrow</code></td>
-<td>$\Downarrow$</td>
-<td><code>\Downarrow</code></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="relation-symbols">Relation Symbols</h2>
-
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>$&lt;$</td>
-<td><code>&lt;</code></td>
-<td>$&gt;$</td>
-<td><code>&gt;</code></td>
-<td>$=$</td>
-<td><code>=</code></td>
-<td>$\parallel$</td>
-<td><code>\parallel</code></td>
-<td>$\nparallel$</td>
-<td><code>\nparallel</code></td>
-</tr>
-
-<tr>
-<td>$\leq$</td>
-<td><code>\leq</code></td>
-<td>$\geq$</td>
-<td><code>\geq</code></td>
-<td>$\doteq$</td>
-<td><code>\doteq</code></td>
-<td>$\asymp$</td>
-<td><code>\asymp</code></td>
-<td>$\bowtie$</td>
-<td><code>\bowtie</code></td>
-</tr>
-
-<tr>
-<td>$\ll$</td>
-<td><code>\ll</code></td>
-<td>$\gg$</td>
-<td><code>\gg</code></td>
-<td>$\equiv$</td>
-<td><code>\equiv</code></td>
-<td>$\vdash$</td>
-<td><code>\vdash</code></td>
-<td>$\dashv$</td>
-<td><code>\dashv</code></td>
-</tr>
-
-<tr>
-<td>$\subset$</td>
-<td><code>\subset</code></td>
-<td>$\supset$</td>
-<td><code>\supset</code></td>
-<td>$\approx$</td>
-<td><code>\approx</code></td>
-<td>$\in$</td>
-<td><code>\in</code></td>
-<td>$\ni$</td>
-<td><code>\ni</code></td>
-</tr>
-
-<tr>
-<td>$\sqsubset$</td>
-<td><code>\sqsubset</code></td>
-<td>$\sqsupset$</td>
-<td><code>\sqsupset</code></td>
-<td>$\sim$</td>
-<td><code>\sim</code></td>
-<td>$\perp$</td>
-<td><code>\perp</code></td>
-<td>$\mid$</td>
-<td><code>\mid</code></td>
-</tr>
-
-<tr>
-<td>$\sqsubseteq$</td>
-<td><code>\sqsubseteq</code></td>
-<td>$\sqsupseteq$</td>
-<td><code>\sqsupseteq</code></td>
-<td>$\propto$</td>
-<td><code>\propto</code></td>
-<td>$\prec$</td>
-<td><code>\prec</code></td>
-<td>$\succ$</td>
-<td><code>\succ</code></td>
-</tr>
-
-<tr>
-<td>$\preceq$</td>
-<td><code>\preceq</code></td>
-<td>$\succeq$</td>
-<td><code>\succeq</code></td>
-<td>$\neq$</td>
-<td><code>\neq</code></td>
-<td>$\sphericalangle$</td>
-<td><code>\sphericalangle</code></td>
-<td>$\measuredangle$</td>
-<td><code>\measuredangle</code></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="binary-operations">Binary Operations</h2>
-
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-<th>Symbol</th>
-<th>Script</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>$\pm$</td>
-<td><code>\pm</code></td>
-<td>$\cap$</td>
-<td><code>\cap</code></td>
-<td>$\diamond$</td>
-<td><code>\diamond</code></td>
-<td>$\oplus$</td>
-<td><code>\oplus</code></td>
-</tr>
-
-<tr>
-<td>$\mp$</td>
-<td><code>\mp</code></td>
-<td>$\cup$</td>
-<td><code>\cup</code></td>
-<td>$\bigtriangleup$</td>
-<td><code>\bigtriangleup</code></td>
-<td>$\ominus$</td>
-<td><code>\ominus</code></td>
-</tr>
-
-<tr>
-<td>$\times$</td>
-<td><code>\times</code></td>
-<td>$\uplus$</td>
-<td><code>\uplus</code></td>
-<td>$\triangleleft$</td>
-<td><code>\triangleleft</code></td>
-<td>$\otimes$</td>
-<td><code>\otimes</code></td>
-</tr>
-
-<tr>
-<td>$\ast$</td>
-<td><code>\ast</code></td>
-<td>$\sqcap$</td>
-<td><code>\sqcap</code></td>
-<td>$\triangledown$</td>
-<td><code>\triangledown</code></td>
-<td>$\odot$</td>
-<td><code>\dot</code></td>
-</tr>
-
-<tr>
-<td>$\star$</td>
-<td><code>\star</code></td>
-<td>$\vee$</td>
-<td><code>\vee</code></td>
-<td>$\bigcirc$</td>
-<td><code>\bigcirc</code></td>
-<td>$\circ$</td>
-<td><code>\circ</code></td>
-</tr>
-
-<tr>
-<td>$\dagger$</td>
-<td><code>\dagger</code></td>
-<td>$\wedge$</td>
-<td><code>\wedge</code></td>
-<td>$\bullet$</td>
-<td><code>\bullet</code></td>
-<td>$\setminus$</td>
-<td><code>\setminus</code></td>
-</tr>
-
-<tr>
-<td>$\ddagger$</td>
-<td><code>\ddagger</code></td>
-<td>$\cdot$</td>
-<td><code>\cdot</code></td>
-<td>$\wr$</td>
-<td><code>\wr</code></td>
-<td>$\amalg$</td>
-<td><code>\amalg</code></td>
-</tr>
-</tbody>
-</table>
-
+    <p></p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#069;font-weight:bold">import</span> <span style="color:#0cf;font-weight:bold">sys</span><span style="color:#555">,</span><span style="color:#0cf;font-weight:bold">os</span>
+<span style="color:#069;font-weight:bold">from</span> <span style="color:#0cf;font-weight:bold">datetime</span> <span style="color:#069;font-weight:bold">import</span> datetime
+<span style="color:#069;font-weight:bold">import</span> <span style="color:#0cf;font-weight:bold">subprocess</span>
+<span style="color:#069;font-weight:bold">import</span> <span style="color:#0cf;font-weight:bold">errno</span>
+<span style="color:#069;font-weight:bold">from</span> <span style="color:#0cf;font-weight:bold">string</span> <span style="color:#069;font-weight:bold">import</span> punctuation</code></pre></div><div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">template</span>():
+    post_template <span style="color:#555">=</span><span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">    ---</span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">title: {title} </span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">date: {year}-{month}-{day}</span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">tags: </span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">slug: {slug}</span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">draft: true</span><span style="color:#c30;font-weight:bold">\n</span><span style="color:#c30">---
+</span><span style="color:#c30">    </span><span style="color:#c30;font-weight:bold">\n\n\n\n</span><span style="color:#c30">  {{<img src="/images/%7bslug%7d/%20" alt="test post /images/{slug}/ " data-action="zoom">
+}}
+</span><span style="color:#c30">    &#34;&#34;&#34;</span>
+    <span style="color:#069;font-weight:bold">return</span> post_template</code></pre></div><div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">fill_md</span>(md_temp,title,slug):
+    today <span style="color:#555">=</span> datetime<span style="color:#555">.</span>today()
+    md_file<span style="color:#555">=</span> <span style="color:#c30">&#34;content/posts/{}.md&#34;</span><span style="color:#555">.</span>format(slug)
+    md_post <span style="color:#555">=</span> md_temp<span style="color:#555">.</span>strip()<span style="color:#555">.</span>format(title<span style="color:#555">=</span>title,
+                                    year <span style="color:#555">=</span> today<span style="color:#555">.</span>year,
+                                    month <span style="color:#555">=</span> <span style="color:#c30">&#39;{:02d}&#39;</span><span style="color:#555">.</span>format(today<span style="color:#555">.</span>month),
+                                    day <span style="color:#555">=</span> <span style="color:#c30">&#39;{:02d}&#39;</span><span style="color:#555">.</span>format(today<span style="color:#555">.</span>day), 
+                                    slug <span style="color:#555">=</span> slug)
+    <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> os<span style="color:#555">.</span>path<span style="color:#555">.</span>exists(md_file):
+        <span style="color:#069;font-weight:bold">with</span> <span style="color:#366">open</span>(md_file, <span style="color:#c30">&#39;w&#39;</span>) <span style="color:#069;font-weight:bold">as</span> w:
+            w<span style="color:#555">.</span>write(md_post)
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#34;{}</span><span style="color:#c30;font-weight:bold">\t</span><span style="color:#c30">CREATED&#34;</span><span style="color:#555">.</span>format(md_file))
+    <span style="color:#069;font-weight:bold">else</span>:
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#39;{}</span><span style="color:#c30;font-weight:bold">\t</span><span style="color:#c30">EXIST&#39;</span><span style="color:#555">.</span>format(md_file))</code></pre></div><div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">clean_title</span>(title):
+    <span style="color:#c30">&#39;&#39;&#39;Clean the title&#39;&#39;&#39;</span>
+    rem_pun <span style="color:#555">=</span> <span style="color:#c30">&#39;&#39;</span><span style="color:#555">.</span>join(c <span style="color:#069;font-weight:bold">for</span> c <span style="color:#000;font-weight:bold">in</span> title <span style="color:#069;font-weight:bold">if</span> c <span style="color:#000;font-weight:bold">not</span> <span style="color:#000;font-weight:bold">in</span> punctuation)  <span style="color:#09f;font-style:italic"># remove punctuations</span>
+    clean_title <span style="color:#555">=</span> <span style="color:#c30">&#39; &#39;</span><span style="color:#555">.</span>join(rem_pun<span style="color:#555">.</span>split())  <span style="color:#09f;font-style:italic"># remove spaces</span>
+    <span style="color:#069;font-weight:bold">return</span> clean_title
+
+<span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">slug_title</span>(title):
+    <span style="color:#c30">&#39;&#39;&#39;slug the title&#39;&#39;&#39;</span>
+    slug <span style="color:#555">=</span> title<span style="color:#555">.</span>lower()<span style="color:#555">.</span>strip()<span style="color:#555">.</span>replace(<span style="color:#c30">&#39; &#39;</span>, <span style="color:#c30">&#39;-&#39;</span>)
+    <span style="color:#069;font-weight:bold">return</span> slug
+
+<span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">make_dirs</span>(slug):
+    <span style="color:#c30">&#39;&#39;&#39;create directories&#39;&#39;&#39;</span>
+    img_dir <span style="color:#555">=</span> <span style="color:#c30">&#39;content/images/{}&#39;</span><span style="color:#555">.</span>format(slug)  <span style="color:#09f;font-style:italic"># images directory</span>
+    <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> os<span style="color:#555">.</span>path<span style="color:#555">.</span>exists(img_dir):
+        os<span style="color:#555">.</span>makedirs(img_dir)
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#34;{}/</span><span style="color:#c30;font-weight:bold">\t</span><span style="color:#c30">CREATED&#34;</span><span style="color:#555">.</span>format(img_dir))
+    <span style="color:#069;font-weight:bold">else</span>:
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#34;{}/</span><span style="color:#c30;font-weight:bold">\t</span><span style="color:#c30">EXIST&#34;</span><span style="color:#555">.</span>format(img_dir))
+
+
+<span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">make_md</span>(slug):
+    <span style="color:#c30">&#39;&#39;&#39;String with location of markdown post &#39;&#39;&#39;</span>
+    md_post<span style="color:#555">=</span> <span style="color:#c30">&#34;content/posts/{}.md&#34;</span><span style="color:#555">.</span>format(slug)
+    <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> os<span style="color:#555">.</span>path<span style="color:#555">.</span>exists(md_post):  <span style="color:#09f;font-style:italic"># check if markdown file exist.</span>
+        <span style="color:#069;font-weight:bold">with</span> <span style="color:#366">open</span>(md_post, <span style="color:#c30">&#39;w&#39;</span>) <span style="color:#069;font-weight:bold">as</span> f:  <span style="color:#09f;font-style:italic"># create an emtpy file</span>
+            f<span style="color:#555">.</span>write(<span style="color:#c30">&#39;&#39;</span>)
+            <span style="color:#09f;font-style:italic"># print(type(md_post))</span>
+            <span style="color:#09f;font-style:italic"># print(md_post)</span>
+            <span style="color:#069;font-weight:bold">return</span> md_post
+    <span style="color:#069;font-weight:bold">else</span>:
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#39;.md Already Exist&#39;</span>)
+
+
+<span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">dir_test</span>(slug):
+    img_dir <span style="color:#555">=</span> <span style="color:#c30">&#39;content/images/{}&#39;</span><span style="color:#555">.</span>format(slug)  <span style="color:#09f;font-style:italic"># images directory</span>
+    <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> os<span style="color:#555">.</span>path<span style="color:#555">.</span>exists(img_dir):
+        os<span style="color:#555">.</span>makedirs(img_dir)
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#39;file created&#39;</span>)
+    <span style="color:#069;font-weight:bold">else</span>:
+        <span style="color:#069;font-weight:bold">print</span>(<span style="color:#c30">&#39;Dir Already Exist&#39;</span>)</code></pre></div><div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">main</span>(title):
+    <span style="color:#c30">&#34;&#34;&#34;Main entry point for the script.&#34;&#34;&#34;</span>
+    title_clean <span style="color:#555">=</span> clean_title(title)
+    md_temp <span style="color:#555">=</span> template()  <span style="color:#09f;font-style:italic"># load empty template function</span>
+    bg_slug <span style="color:#555">=</span> slug_title(title_clean)  <span style="color:#09f;font-style:italic"># create slug</span>
+    make_dirs(bg_slug)  <span style="color:#09f;font-style:italic"># create image directory</span>
+    fill_md(md_temp,title,bg_slug)  <span style="color:#09f;font-style:italic"># load empty template with data and save</span></code></pre></div><div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#09f;font-style:italic"># if __name__ == &#39;__main__&#39;:</span>
+<span style="color:#09f;font-style:italic">#     if len(sys.argv) &gt; 1 and sys.argv[1].strip() !=&#34;&#34; :</span>
+<span style="color:#09f;font-style:italic">#         sys.exit(main(sys.argv[1]))</span>
+<span style="color:#09f;font-style:italic">#     else:</span>
+<span style="color:#09f;font-style:italic">#         print (&#34;Not a valid title&#34;)</span></code></pre></div>
   </section>
   <footer>
     
@@ -722,12 +181,12 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="/posts/sup-globe/">Newer</a>
+          <a href="/posts/image-test-page/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="/about/">Older</a>
+          <a href="/posts/genetics-test/">Older</a>
           
         </div>
       </div>

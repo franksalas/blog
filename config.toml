@@ -7,7 +7,8 @@ Title = "sal.as"
 theme = "pickles"
 
 PygmentsCodeFences = true
-PygmentsStyle = "manni"
+pygmentsuseclasses = false
+PygmentsStyle = "tango"
 
 [params]
   paginate = 10

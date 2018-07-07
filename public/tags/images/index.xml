@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Images on sal.as</title>
+    <link>/tags/images/</link>
+    <description>Recent content in Images on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/images/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>image test page</title>
+      <link>/posts/image-test-page/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/image-test-page/</guid>
+      <description>this is a post Eu nulla commodo qui reprehenderit id aliquip magna. Et officia dolore aliquip deserunt sint aute irure. Ea culpa aliquip labore nisi officia cupidatat qui consequat et. Veniam ipsum labore incididunt laboris minim elit ex non reprehenderit consectetur. Eiusmod qui ad qui voluptate ut eiusmod adipisicing dolor ullamco amet.
+Dolor tempor reprehenderit veniam duis quis pariatur in. Eu pariatur duis sint non ea consequat amet commodo. Ea reprehenderit id amet ipsum aliqua sint Lorem est non sunt sit.</description>
+    </item>
+    
+  </channel>
+</rss>

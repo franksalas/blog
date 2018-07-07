@@ -6,10 +6,56 @@
     <description>Recent content on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NFL_JSON_API_example</title>
+      <link>/posts/nfl_json_api_example/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/nfl_json_api_example/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Notebook test</title>
+      <link>/posts/notebook-test/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/notebook-test/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>STORY</title>
+      <link>/posts/story/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/story/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>image test page</title>
+      <link>/posts/image-test-page/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/image-test-page/</guid>
+      <description>this is a post Eu nulla commodo qui reprehenderit id aliquip magna. Et officia dolore aliquip deserunt sint aute irure. Ea culpa aliquip labore nisi officia cupidatat qui consequat et. Veniam ipsum labore incididunt laboris minim elit ex non reprehenderit consectetur. Eiusmod qui ad qui voluptate ut eiusmod adipisicing dolor ullamco amet.
+Dolor tempor reprehenderit veniam duis quis pariatur in. Eu pariatur duis sint non ea consequat amet commodo. Ea reprehenderit id amet ipsum aliqua sint Lorem est non sunt sit.</description>
+    </item>
+    
+    <item>
+      <title>sup globe</title>
+      <link>/posts/sup-globe/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sup-globe/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Math Latex Example</title>
@@ -17,12 +63,11 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/math-latex-example/</guid>
-      <description>Operators \cos (2\theta) = \cos^2 \theta - \sin^2 \theta $$ \cos (2\theta) = \cos^2 \theta - \sin^2 \theta $$
-limits \lim_{x \to \infty} \exp(-x) = 0 $$ \lim_{x \to \infty} \exp(-x) = 0 $$
-Powers and indices n^{22} $n^{22}$
-f(n) = n^5 + 4n^2 + 2 |_{n=17} $$ f(n) = n^5 + 4n^2 + 2 |_{n=17} $$
-Fractions and Binomials \frac{n!}{k!(n-k)!} = \binom{n}{k} $$ \frac{n!}{k!(n-k)!} = \binom{n}{k} $$
-\frac{\frac{1}{x}+\frac{1}{y}}{y-z} $$ \frac{\frac{1}{x}+\frac{1}{y}}{y-z} $$</description>
+      <description>Operators \cos (2\theta) = \cos^2 \theta - \sin^2 \theta  $$ \cos (2\theta) = \cos^2 \theta - \sin^2 \theta $$
+limits \lim_{x \to \infty} \exp(-x) = 0  $$ \lim_{x \to \infty} \exp(-x) = 0 $$
+Powers and indices n^{22}  $n^{22}$
+f(n) = n^5 + 4n^2 + 2 |_{n=17}  $$ f(n) = n^5 + 4n^2 + 2 |_{n=17} $$
+Fractions and Binomials \frac{n!}{k!(n-k)!} = \binom{n}{k}  $$ \frac{n!</description>
     </item>
     
     <item>
