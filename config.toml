@@ -8,7 +8,7 @@ theme = "pickles"
 
 PygmentsCodeFences = true
 pygmentsuseclasses = false
-PygmentsStyle = "tango"
+PygmentsStyle = "emacs"
 
 [params]
   paginate = 10

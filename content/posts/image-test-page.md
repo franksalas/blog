@@ -8,6 +8,10 @@ draft: false
     
 ## this is a post
 
+```python
+print('hello world')
+```
+
 Eu nulla commodo qui reprehenderit id aliquip magna. Et officia dolore aliquip deserunt sint aute irure. Ea culpa aliquip labore nisi officia cupidatat qui consequat et. Veniam ipsum labore incididunt laboris minim elit ex non reprehenderit consectetur. Eiusmod qui ad qui voluptate ut eiusmod adipisicing dolor ullamco amet.
 
 Dolor tempor reprehenderit veniam duis quis pariatur in. Eu pariatur duis sint non ea consequat amet commodo. Ea reprehenderit id amet ipsum aliqua sint Lorem est non sunt sit.
