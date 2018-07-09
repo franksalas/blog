@@ -1,82 +1,175 @@
-baseurl = "/"
-languageCode = "en-us"
-Title = "sal.as"
-# Copyright notice. This is displayer in the footer.
-#copyright = "&copy; Copyright notice"
+baseURL = "/"
+languageCode = "en"
+defaultContentLanguage = "en"  # en / zh-cn / 
+title = "sal.as"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "even"
 
-theme = "pickles"
+preserveTaxonomyNames = true
+hasCJKLanguage = false     # has chinese/japanese/korean ? 
+paginate = 10                                            
+disqusShortname = ""      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
+copyright = ""            # default: author.name
 
-PygmentsCodeFences = true
-pygmentsuseclasses = false
-PygmentsStyle = "emacs"
+[author]                  # essential
+  name = "Francisco Salas"
+
+[sitemap]                 # essential 
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]]             # config your menu
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
 
 [params]
-  paginate = 10
-  # Social accounts. Link to these accounts are displayed in the header and
-  # footer
-  #twitter = "Your Twitter username"
-  #facebook = "Your Facebook username"
-  #instagram = "Your Instagram username"
-  #googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
-  github = "franksalas"
-  #gitlab = "Your GitLab username"
-  #npm = "Your npm username"
-  #codepen = "Your CodePen username"
-  #dribbble = "Your Dribbble username"
-  #fivehundredpx = "Your 500px username" # 500px
-  #flickr = "Your Flickr username"
-  #pinterest = "Your Pinterest username"
-  #tumblr = "Your Tumblr username"
-  #vimeo = "Your Vimeo username"
-  #youtube = "Your YouTube username"
-  linkedin = "frank-salas"
-  # Disqus shortname
-  disqus = ""
-  # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
-  author = "Francisco Salas"
-  #authorwebsite = "example.com"
-  avatar = "http://bit.ly/2Nb0Esj"
-  contact = "mailto:frank.salas@gmail.com)"
-  #bio = "Your short bio"
-  # Short subtitle/tagline. This is displayed in the header.
-  #subtitle = "Short subtitle"
-  # Logo image. This is displayed ogp image.
-  #logo = "/path/to/logo"
-  #favicon = "/path/to/favicon"
+  version = "3.x"           # Used to give a friendly message when you have an incompatible update
+  debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
+
+  since = "2016"            # Site creation time
+
+  # site info (optional)                                  
+  logoTitle = "sal.as"        # default: the title value
+  keywords = ["Hugo", "theme","even"]
+  description = "this is a description."
+
+  # paginate of archives, tags and categories            
+  archivePaginate = 5
+
+  # show 'xx Posts In Total' in archive page ?          
+  showArchiveCount = false
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
+  # show word count and read time ?                     
+  moreMeta = false
 
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+  toc = true                                                                            
+  autoCollapseToc = true   # Auto expand and collapse toc                             
+  fancybox = true           # see https://github.com/fancyapps/fancybox               
+  mathjax = true           # see https://www.mathjax.org/                           
+  mathjaxEnableSingleDollar = false                                                   
+  mathjaxEnableAutoNumber = false                                                
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 1
+  postMetaInFooter = false   # contain author, lastMod, markdown link, license           
+  linkToMarkDown = false    # Only effective when hugo will output .md files.        ）
+  contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
-[related]
-  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
-  threshold = 80
+  changyanAppid = ""        # Changyan app id           
+  changyanAppkey = ""       # Changyan app key
+  livereUID = ""            # LiveRe UID                 
+  baidu_push = false        # baidu push                
+  baidu_analytics = ""      # Baidu Analytics
+  baidu_verification = ""   # Baidu Verification
+  google_verification = ""  # Google_Verification      
 
-  # To get stable "See also" sections we, by default, exclude newer related pages.
-  includeNewer = false
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
 
-  # Will lower case keywords in both queries and in the indexes.
-  toLower = false
+  [params.publicCDN]        # load these files from public cdn 
+    enable = false
+    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>'
+    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
+    fancyboxJs = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>'
+    fancyboxCss = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
+    gitmentJS = '<script src="https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js" crossorigin="anonymous"></script>'
+    gitmentCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css" crossorigin="anonymous">'
+    gitalkJS = '<script src="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.min.js" integrity="sha256-DcjhdbufsHMHflFjZtKNFnPKOAL2ybOxGcPOR4MtnJg=" crossorigin="anonymous"></script>'
+    gitalkCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.css" integrity="sha256-rJVe5uyYRXdLM+Kkoj7JtN+9qI0bZTxkYTaNWODpg7U=" crossorigin="anonymous">'
+    timeagoJS = '<script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>'
+    timeagoLocalesJS = '<script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>'
 
-  [[related.indices]]
-  name = "keywords"
-  weight = 150
-  [[related.indices]]
-  name  = "author"
-  toLower = true
-  weight = 30
-  [[related.indices]]
-  name  = "tags"
-  weight = 100
-  [[related.indices]]
-  name  = "date"
-  weight = 10
-  pattern = "2017"
+  # Display a message at the beginning of an article to warn the readers that it's content may be outdated.
+  [params.outdatedInfoWarning]
+    enable = false
+    hint = 30               # Display hint if the last modified time is more than these days ago.   
+    warn = 180              # Display warning if the last modified time is more than these days ago.
+
+  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+
+  [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+
+  [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
+    enable = false
+    options = ""
+
+  [params.sequenceDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
+    enable = false
+    options = ""            # default: "{theme: 'simple'}"
+
+  [params.busuanzi]         # count web traffic by busuanzi
+    enable = false
+    siteUV = true
+    sitePV = true
+    pagePV = true
+
+  [params.reward]                               
+    enable = false
+    wechat = "/path/to/your/wechat-qr-code.png"         
+    alipay = "/path/to/your/alipay-qr-code.png"         
+
+  [params.social]                                       
+    a-email = "frank.salas@gmail.com"
+    #b-stack-overflow = "http://localhost:1313"
+    #c-twitter = "http://localhost:1313"
+    #d-facebook = "http://localhost:1313"
+    e-linkedin = "https://www.linkedin.com/in/frank-salas"
+    #f-google = "http://localhost:1313"
+    g-github = "https://github.com/franksalas"
+    #h-weibo = "http://localhost:1313"
+    #i-zhihu = "http://localhost:1313"
+    #j-douban = "http://localhost:1313"
+    #k-pocket = "http://localhost:1313"
+    #l-tumblr = "http://localhost:1313"
+    #m-instagram = "http://localhost:1313"
+
+
+# Uncomment these options to make hugo output .md files.
+#[mediaTypes]
+#  [mediaTypes."text/plain"]
+#    suffix = "md"
+#
+#[outputFormats.MarkDown]
+#  mediaType = "text/plain"
+#  isPlainText = true
+#  isHTML = false
+#
+#[outputs]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML", "MarkDown"]
+#  section = ["HTML", "RSS"]
+#  taxonomy = ["HTML", "RSS"]
+#  taxonomyTerm = ["HTML"]

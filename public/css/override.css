@@ -1,68 +1,153 @@
-//
-// Code (inline and blocK)
-// --------------------------------------------------
 
-
-// Inline and block code styles
-code,
-pre {
-  padding: 0 3px 2px;
-  #font > #family > .monospace;
-  font-size: @baseFontSize - 2;
-  color: @grayDark;
-  .border-radius(3px);
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+/************** Jupyter CSS ************************/
+.input_prompt {
+    color:#cce6ff;
 }
-
-// Inline code
-code {
-  padding: 2px 4px;
-  //color: #d14;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
-  white-space: nowrap;
+.output_prompt{
+    color:#efeff5;
 }
-
-// Blocks of code
-pre {
-  display: block;
-  padding: (@baseLineHeight - 1) / 2;
-  margin: 0 0 @baseLineHeight / 2;
-  font-size: @baseFontSize - 1; // 14px to 13px
-  line-height: @baseLineHeight;
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre;
-  white-space: pre-wrap;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc; // fallback for IE7-8
-  border: 1px solid rgba(0,0,0,.15);
-  .border-radius(@baseBorderRadius);
-
-  // Make prettyprint styles more spaced out for readability
-  &.prettyprint {
-    margin-bottom: @baseLineHeight;
-  }
-
-  // Account for some code outputs that place code tags in pre tags
-  code {
-    padding: 0;
-    color: inherit;
-    white-space: pre;
-    white-space: pre-wrap;
-    background-color: transparent;
-    border: 0;
-  }
-
-  &.code {
-    white-space: pre;
-    word-break: keep-all;
-    word-wrap: normal;
-    overflow: auto;
-  }
+.prompt{
+    font-family: monospace;
+    font-size: 14px;
 }
-
-// Enable scrollable blocks of code
-.pre-scrollable {
-  max-height: 340px;
-  overflow-y: scroll;
+.c, c1 {
+    color: #408080;
+    font-style: italic;
 }
+.k {
+    color: #338822;
+    font-weight: bold;
+}
+.kn {
+    color: #338822;
+    font-weight: bold;
+}
+.mi {
+    color: #008800;
+}
+.mf {
+    color: #008800;
+}
+.o {
+    color: #9966ff;
+}
+.ow {
+    color: #BA22FF;
+    font-weight: bold;
+}
+.nb {
+    color: #338822;
+}
+.n {
+    color: #000000;
+}
+.s, .s1 {
+    color: #cc2222;
+}
+.se {
+    color: #cc2222;
+    font-weight: bold;
+}
+.si {
+    color: #C06688;
+    font-weight: bold;
+}
+.nn {
+    color: #4D00FF;
+    font-weight: bold;
+}
+.output_area pre {
+    background-color: #FFFFFF;
+    padding-left: 5%;
+}
+.code_cell {
+    padding-left: 1%;
+}
+.cell {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+br {
+    line-height: 2;
+}
+.cell h1, h2, h3, h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/************** Jupyter CSS ************************/
