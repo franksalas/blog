@@ -27,7 +27,7 @@ draft: true
 keywords: []
 description: ""
 tags: []
-categories:[]
+categories: []
 slug: {slug}
 comment: false
 toc: false

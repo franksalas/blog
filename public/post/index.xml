@@ -6,37 +6,10 @@
     <description>Recent content in Posts on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Aug 2017 18:03:09 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 08 Mar 2018 17:40:19 +0800</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Theme preview</title>
-      <link>/post/even-preview/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>/post/even-preview/</guid>
-      <description>Copy from 《Hugo 主题 Nuo 文章样式预览》
- 这篇文章集中说明主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些样式，可以去修改 css/ 文件夹下的 .scss 文件。
-1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单引号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调
-使用两个引号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调
-引号和下划线可叠加使用 → 只是加粗 斜体并加粗
-使用两个波浪线 ~~ 标记 已删除文字
-插入文字暂无 Markdown 标记，直接使用 HTML 标签 &amp;lt;ins&amp;gt; 标记 插入文字
-行内代码使用反引号标记 → print(&amp;quot;hello world&amp;quot;)
-上标 X2 / 下标 X2
-按键 Ctrl</description>
-    </item>
-    
-    <item>
-      <title>image test</title>
-      <link>/post/image-test/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/image-test/</guid>
-      <description> Image test other right ref </description>
-    </item>
     
     <item>
       <title>This is a hidden post.</title>
@@ -50,92 +23,21 @@
     </item>
     
     <item>
-      <title>Shortcodes</title>
-      <link>/post/shortcodes/</link>
-      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
+      <title>Math Latex Examples</title>
+      <link>/post/math-latex-examples/</link>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/shortcodes/</guid>
-      <description>&lt;h1 id=&#34;center-right-left&#34;&gt;center, right, left&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;## default
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-
-{{% center %}}
-## center
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-{{% /center %}}
-
-{{% right %}}
-## right
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-{{% /right %}}
-
-{{% left %}}
-## left
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-{{% /left %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>/post/math-latex-examples/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>JS Flowchart Diagrams</title>
-      <link>/post/js-flowchart-diagrams/</link>
-      <pubDate>Wed, 04 Mar 2015 21:57:50 +0800</pubDate>
+      <title>sup globe</title>
+      <link>/post/sup-globe/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/js-flowchart-diagrams/</guid>
-      <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-flowchart&#34;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
-e=&amp;gt;end: End:&amp;gt;http://www.google.com
-op1=&amp;gt;operation: My Operation|past
-op2=&amp;gt;operation: Stuff|current
-sub1=&amp;gt;subroutine: My Subroutine|invalid
-cond=&amp;gt;condition: Yes
-or No?|approved:&amp;gt;http://www.google.com
-c2=&amp;gt;condition: Good idea|rejected
-io=&amp;gt;inputoutput: catch something...|request
-
-st-&amp;gt;op1(right)-&amp;gt;cond
-cond(yes, right)-&amp;gt;c2
-cond(no)-&amp;gt;sub1(left)-&amp;gt;op1
-c2(yes)-&amp;gt;io-&amp;gt;e
-c2(no)-&amp;gt;op2-&amp;gt;e
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>JS Sequence Diagrams</title>
-      <link>/post/js-sequence-diagrams/</link>
-      <pubDate>Wed, 04 Mar 2015 21:57:45 +0800</pubDate>
-      
-      <guid>/post/js-sequence-diagrams/</guid>
-      <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sequence&#34;&gt;Andrew-&amp;gt;China: Says Hello
-Note right of China: China thinks\nabout it
-China--&amp;gt;Andrew: How are you?
-Andrew-&amp;gt;&amp;gt;China: I am good thanks!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>/post/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>/post/syntax-highlighting/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
-  alert(&amp;quot;Hello, World!&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>/post/sup-globe/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
