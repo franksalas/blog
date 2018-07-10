@@ -5,21 +5,54 @@ import errno
 from string import punctuation
 
 
+
+
+
+# def template():
+#     post_template ="""
+#     ---\ntitle: {title} \ndate: {year}-{month}-{day}\ntags: \nslug: {slug}\ndraft: true\n---
+#     \n![alt text][img1]\n\n\n[img1]: /images/{slug}/
+
+#     """
+#     return post_template
+
+
+
 def template():
     post_template ="""
-    ---\ntitle: {title} \ndate: {year}-{month}-{day}\ntags: \nslug: {slug}\ndraft: true\n---
-    \n\n\n\n  {{{{% zoom-img src="/images/{slug}/ "%}}}}
+---
+title: {title}
+date: {year}-{month}-{day}
+draft: true
+keywords: []
+description: ""
+tags: []
+categories:[]
+slug: {slug}
+comment: false
+toc: false
+autoCollapseToc: false
+postMetaInFooter: false
+hiddenFromHomePage: false
+reward: false
+mathjax: false
+mathjaxEnableSingleDollar: false
+mathjaxEnableAutoNumber: false
+---\n\n\n\n
+
+
+<!--more-->
+
+![alt text][img1]\n\n\n[img1]: /images/{slug}/
     """
     return post_template
 
 
 
 
-
-
 def fill_md(md_temp,title,slug):
     today = datetime.today()
-    md_file= "content/posts/{}.md".format(slug)
+    md_file= "content/post/{}.md".format(slug)
     md_post = md_temp.strip().format(title=title,
                                     year = today.year,
                                     month = '{:02d}'.format(today.month),
