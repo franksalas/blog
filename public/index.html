@@ -17,7 +17,6 @@
 
 
 <meta name="author" content="Francisco Salas" />
-  <meta name="description" content="this is a description." />
   <meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -53,13 +52,13 @@
 
 
 <meta property="og:title" content="sal.as" />
-<meta property="og:description" content="this is a description." />
+<meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
 
 
 
-<meta property="og:updated_time" content="2017-08-20T21:38:52&#43;08:00"/>
+<meta property="og:updated_time" content="2016-02-09T00:00:00&#43;00:00"/>
 
 
 
@@ -71,11 +70,11 @@
 
 
 <meta itemprop="name" content="sal.as">
-<meta itemprop="description" content="this is a description.">
+<meta itemprop="description" content="">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="sal.as"/>
-<meta name="twitter:description" content="this is a description."/>
+<meta name="twitter:description" content=""/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -108,8 +107,6 @@
         <li class="mobile-menu-item">Tags</li>
       </a><a href="/categories/">
         <li class="mobile-menu-item">Categories</li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">About</li>
       </a>
   </ul>
 </nav>
@@ -129,8 +126,6 @@
         <a class="menu-item-link" href="/tags/">Tags</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/categories/">Categories</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">About</a>
       </li>
   </ul>
 </nav>
@@ -146,122 +141,6 @@
     
       <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/dynamo_combined/">dynamo_combined</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-07-09 </span>
-      
-      <span class="more-meta"> 0 words </span>
-      <span class="more-meta"> 0 mins read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p></p>
-    </div>
-    <div class="read-more">
-      <a href="/post/dynamo_combined/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/notebook-test/">notebook test</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-07-09 </span>
-      
-      <span class="more-meta"> 0 words </span>
-      <span class="more-meta"> 0 mins read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p></p>
-    </div>
-    <div class="read-more">
-      <a href="/post/notebook-test/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/noest/">This is a notebook.</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-03-08 </span>
-      
-      <span class="more-meta"> 13 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-       Title Sub title code print('hello')  print('sup globe')  sup globe  print('another test')  another test  
-    </div>
-    <div class="read-more">
-      <a href="/post/noest/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/dynaned/">Another notebook</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2016-08-30 </span>
-      <div class="post-category">
-          
-            <a href="/categories//">  </a>
-          
-        </div>
-      <span class="more-meta"> 648 words </span>
-      <span class="more-meta"> 4 mins read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      import pandas as pd import numpy as np  ls data/sports_scores/  [0m[01;32mastros_1A10.csv[0m* [01;32mRice_10H80.csv[0m* [01;32mTex_15E40.csv[0m* [01;32mdynamo_10H30.csv[0m* [01;32mrockets_1A10.csv[0m* [01;32mUH_10H50.csv[0m*  ls data/crime_beats/  [0m[01;32mcrime_10H30_10_17.csv[0m* [01;32mcrime_10H80_10_17.csv[0m* [01;32mcrime_1A10_10_17.csv[0m* [01;32mcrime_10H50_10_17.csv[0m* [01;32mcrime_15E40_10_17.csv[0m*  games = 'data/sports_scores/dynamo_10H30.csv' crime = 'data/crime_beats/crime_10H30_10_17.csv'  scores dataframes df = pd.read_csv(games,index_col='full_date').sort_index(ascending=True) ## win column df['win'] = np.where(df['home_score'] &gt; df['away_score'],1,0) # only oposing name and win boolean df = df[['away_team','win']] # show df.head()   .dataframe tbody tr th:only-of-type { vertical-align: middle; } .
-    </div>
-    <div class="read-more">
-      <a href="/post/dynaned/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/install-windows-subsystem-for-linux/">Install Windows Subsystem for Linux</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2016-07-09 </span>
-      
-      <span class="more-meta"> 0 words </span>
-      <span class="more-meta"> 0 mins read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <h2 id="whaaa">Whaaa..</h2>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/post/install-windows-subsystem-for-linux/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/math-latex-examples/">Math Latex Examples</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2016-02-09 </span>
@@ -270,8 +149,7 @@
             <a href="/categories/math/"> math </a>
           
         </div>
-      <span class="more-meta"> 0 words </span>
-      <span class="more-meta"> 0 mins read </span>
+      
     </div>
   </header>
   
@@ -292,8 +170,7 @@
     <div class="post-meta">
       <span class="post-time"> 2016-01-09 </span>
       
-      <span class="more-meta"> 0 words </span>
-      <span class="more-meta"> 0 mins read </span>
+      
     </div>
   </header>
   
@@ -374,6 +251,13 @@
   </script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-105781975-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
 
 
 

@@ -10,7 +10,7 @@ preserveTaxonomyNames = true
 hasCJKLanguage = false     # has chinese/japanese/korean ? 
 paginate = 10                                            
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "UA-105781975-1"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name
 
 [author]                  # essential
@@ -51,7 +51,7 @@ copyright = ""            # default: author.name
   # site info (optional)                                  
   logoTitle = "sal.as"        # default: the title value
   keywords = ["Hugo", "theme","even"]
-  description = "this is a description."
+  description = ""
 
   # paginate of archives, tags and categories            
   archivePaginate = 5
@@ -63,7 +63,7 @@ copyright = ""            # default: author.name
   dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?                     
-  moreMeta = true
+  moreMeta = false
 
 
 
