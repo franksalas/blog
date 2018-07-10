@@ -145,7 +145,7 @@ copyright = ""            # default: author.name
     alipay = "/path/to/your/alipay-qr-code.png"         
 
   [params.social]                                       
-    a-email = "frank.salas@gmail.com"
+    a-email = "mailto:frank.salas@gmail.com"
     #b-stack-overflow = "http://localhost:1313"
     #c-twitter = "http://localhost:1313"
     #d-facebook = "http://localhost:1313"
