@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on sal.as</title>
+    <title>sal.as</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on sal.as</description>
+    <description>Recent content on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 30 Aug 2016 16:01:23 +0800</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Math</title>
-      <link>/categories/math/</link>
-      <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
+      <title>Another notebook</title>
+      <link>/post/dynaned/</link>
+      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
       
-      <guid>/categories/math/</guid>
-      <description></description>
+      <guid>/post/dynaned/</guid>
+      <description>import pandas as pd import numpy as np  ls data/sports_scores/  [0m[01;32mastros_1A10.csv[0m* [01;32mRice_10H80.csv[0m* [01;32mTex_15E40.csv[0m* [01;32mdynamo_10H30.csv[0m* [01;32mrockets_1A10.csv[0m* [01;32mUH_10H50.csv[0m*  ls data/crime_beats/  [0m[01;32mcrime_10H30_10_17.csv[0m* [01;32mcrime_10H80_10_17.csv[0m* [01;32mcrime_1A10_10_17.csv[0m* [01;32mcrime_10H50_10_17.csv[0m* [01;32mcrime_15E40_10_17.csv[0m*  games = &#39;data/sports_scores/dynamo_10H30.csv&#39; crime = &#39;data/crime_beats/crime_10H30_10_17.csv&#39;  scores dataframes df = pd.read_csv(games,index_col=&#39;full_date&#39;).sort_index(ascending=True) ## win column df[&#39;win&#39;] = np.where(df[&#39;home_score&#39;] &amp;gt; df[&#39;away_score&#39;],1,0) # only oposing name and win boolean df = df[[&#39;away_team&#39;,&#39;win&#39;]] # show df.head()   .dataframe tbody tr th:only-of-type { vertical-align: middle; } .</description>
     </item>
     
   </channel>

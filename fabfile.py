@@ -196,7 +196,7 @@ def write_hugo_formatted_nb_to_md(notebook: Union[Path, str], render_to: Optiona
     notebook_metadata = json.loads(notebook.read_text())['metadata']
     rendered_markdown_string = notebook_to_markdown(notebook)
     slug = notebook_metadata['front-matter']['slug']
-    render_to = render_to or notebook_metadata['hugo-jupyter']['render-to'] or 'content/posts/'
+    render_to = render_to or notebook_metadata['hugo-jupyter']['render-to'] or 'content/post/'
 
     if not render_to.endswith('/'):
         render_to += '/'
@@ -244,7 +244,7 @@ def update_notebook_metadata(notebook: Union[Path, str],
     notebook_data['metadata']['front-matter'] = front_matter
 
     # update hugo-jupyter settings
-    render_to = render_to or notebook_data['metadata'].get('hugo-jupyter', {}).get('render-to') or 'content/posts/'
+    render_to = render_to or notebook_data['metadata'].get('hugo-jupyter', {}).get('render-to') or 'content/post/'
     hugo_jupyter = {
         'render-to': render_to
     }

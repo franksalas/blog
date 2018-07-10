@@ -139,6 +139,8 @@ Even.fancybox = function () {
   }
 }
 
+// highlight
+
 Even.highlight = function () {
   const blocks = document.querySelectorAll('pre code')
   for (let i = 0; i < blocks.length; i++) {

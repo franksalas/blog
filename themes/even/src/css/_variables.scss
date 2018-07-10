@@ -272,7 +272,8 @@ $code-type-list: (
   language-typescript: "TypeScript",
   language-yml: "YAML",
   language-yaml: "YAML",
-  language-toml: "TOML"
+  language-toml: "TOML",
+  language-out: "output",
 ) !default;
 
 // Color of the code background.

@@ -1,12 +1,12 @@
 ---
-title: Sup Globe
-date: 2016-01-09
-draft: false
+title: Install Windows Subsystem for Linux
+date: 2016-07-09
+draft: true
 keywords: []
 description: ""
 tags: []
 categories: []
-slug: sup-globe
+slug: install-windows-subsystem-for-linux
 comment: false
 toc: false
 autoCollapseToc: false
@@ -18,7 +18,7 @@ mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
 ---
 
-
+## Whaaa..
 
 
 
@@ -28,4 +28,4 @@ mathjaxEnableAutoNumber: false
 ![alt text][img1]
 
 
-[img1]: /images/sup-globe/doggo.jpg
+[img1]: /images/install-windows-subsystem-for-linux/

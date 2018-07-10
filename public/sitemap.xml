@@ -10,8 +10,36 @@
   </url>
   
   <url>
-    <loc>/post/hidden-post/</loc>
+    <loc>/post/dynamo_combined/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/notebook-test/</loc>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/noest/</loc>
     <lastmod>2018-03-08T22:01:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/dynaned/</loc>
+    <lastmod>2016-08-30T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/install-windows-subsystem-for-linux/</loc>
+    <lastmod>2016-07-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,7 +59,22 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2016-08-30T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2016-08-30T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2016-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -52,14 +95,14 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-03-08T22:01:19+08:00</lastmod>
+    <lastmod>2018-07-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2016-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2016-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
