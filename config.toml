@@ -74,7 +74,7 @@ copyright = ""            # default: author.name
   autoCollapseToc = true   # Auto expand and collapse toc                             
   fancybox = true           # see https://github.com/fancyapps/fancybox               
   mathjax = true           # see https://www.mathjax.org/                           
-  mathjaxEnableSingleDollar = false                                                   
+  mathjaxEnableSingleDollar = true                                                   
   mathjaxEnableAutoNumber = false                                                
 
   postMetaInFooter = false   # contain author, lastMod, markdown link, license           

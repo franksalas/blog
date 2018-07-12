@@ -20,8 +20,18 @@ mathjaxEnableAutoNumber: false
 ---
 
 
+## $\LaTeX$
 
+LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.
 
+For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.
+
+In most Markdown editors, you write a math equation inside two single dollar signs `$eqt$`, or double dollar signs
+```latex
+$$
+eqt
+$$
+```
 
 
 <!--more-->
@@ -317,3 +327,14 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 |$\star$|`\star`|$\vee$|`\vee`|$\bigcirc$|`\bigcirc`|$\circ$|`\circ`|
 |$\dagger$|`\dagger`|$\wedge$|`\wedge`|$\bullet$|`\bullet`|$\setminus$|`\setminus`|
 |$\ddagger$|`\ddagger`|$\cdot$|`\cdot`|$\wr$|`\wr`|$\amalg$|`\amalg`|
+
+
+
+
+
+## References
+
+
+
+1. https://en.wikibooks.org/wiki/LaTeX/Mathematics
+2. https://en.wikibooks.org/wiki/LaTeX/Introduction
