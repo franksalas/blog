@@ -6,22 +6,66 @@
     <description>Recent content on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Install Windows Subsystem for Linux</title>
+      <title>Markdown Language Overview</title>
+      <link>/post/markdown-language/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/markdown-language/</guid>
+      <description>&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is markdown?&lt;/h1&gt;
+
+&lt;p&gt;Markdown is a text to HTML conversion tool for anyone wanting to document on the web. It allowes you to write plain text format that then is converted it to valid HTML.&lt;/p&gt;
+
+&lt;p&gt;It was created in 2004 by Jhon Gruber with collaboration with others including Aaron Swartz. Its syntax is influnec by previous text-to-HTML filters including &lt;em&gt;Setext&lt;/em&gt;, &lt;em&gt;atx&lt;/em&gt;, &lt;em&gt;Textile&lt;/em&gt;, &lt;em&gt;reStructuredText&lt;/em&gt;, &lt;em&gt;Grutatext&lt;/em&gt;, and &lt;em&gt;EtText&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The main difference is that markdown&amp;rsquo;s syntax is comprised entirely of punctuation characters as to look like what they mean.&lt;/p&gt;
+
+&lt;p&gt;Markdown is a lightweight super eazy&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to use markup language that is widely used today.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installing Anaconda on  WLS</title>
+      <link>/post/installing-anaconda-on-wls/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/installing-anaconda-on-wls/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/installing-anaconda-on-wls/anaconda_horizontal.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;difference-between-conda-and-anaconda&#34;&gt;Difference between conda and Anaconda&lt;/h1&gt;
+
+&lt;p&gt;conda is the package manager. Anaconda is a set of about a hundred packages including conda, numpy, scipy, ipython notebook, and so on.&lt;/p&gt;
+
+&lt;p&gt;You installed Miniconda, which is a smaller alternative to Anaconda that is just conda and its dependencies (as opposed to Anaconda, which is conda and a bunch of other packages like numpy, scipy, ipython notebook, etc.). Once you have Miniconda, you can easily install Anaconda into it with conda install anaconda.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux on Windows</title>
       <link>/post/install-windows-subsystem-for-linux/</link>
-      <pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/install-windows-subsystem-for-linux/</guid>
-      <description>&lt;h2 id=&#34;whaaa&#34;&gt;Whaaa..&lt;/h2&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/images/install-windows-subsystem-for-linux/bashonwindows0.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ea et culpa pariatur anim mollit enim ullamco id tempor dolore nostrud id voluptate. Amet mollit enim nisi Lorem ex veniam adipisicing et pariatur nostrud. Culpa ad occaecat consectetur do proident laborum. Et mollit sint anim anim laborum quis reprehenderit tempor ad ad.&lt;/p&gt;
+&lt;p&gt;For those who want to run Linux without dual booting your machine or  sharing resources by using a virtual machine, Windows Subsytem for Linux is the best option.&lt;/p&gt;
 
-&lt;p&gt;Magna do eu proident reprehenderit est voluptate nisi consectetur cillum ut excepteur velit. Ullamco Lorem aliqua commodo enim dolore sint esse. Culpa consequat in non laborum cillum culpa anim ipsum irure veniam deserunt. Sit voluptate minim officia non aute ipsum proident quis deserunt. Ipsum cillum in ea exercitation eiusmod laborum dolore consectetur mollit do Lorem.&lt;/p&gt;
+&lt;p&gt;The Windows Subsystem for Linux lets us run Linux environments like popular command-line tools, utilities and applications &lt;em&gt;inside&lt;/em&gt; windows.
+Windows Subsytem for Linux or (WLS) its a layer fo running Linux binary files natively on Windows 10 and its awesome.  It provides a Linux-compatible kernel interface develop by Microsoft that then can run a GNU userland on top of it, like Ubuntu.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-can-we-do-with-wls&#34;&gt;What can we do with WLS&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;short answer: Bash on windows!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Having bash on Windows is a great tool for developers comming from a Linux/Unix enviroment that want/need to work with a Windows 10 machine.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -32,13 +76,26 @@
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/math-latex-examples/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;latex&#34;&gt;$\LaTeX$&lt;/h2&gt;
+
+&lt;p&gt;LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.&lt;/p&gt;
+
+&lt;p&gt;For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.&lt;/p&gt;
+
+&lt;p&gt;In most Markdown editors, you write a math equation inside two single dollar signs &lt;code&gt;$eqt$&lt;/code&gt;, or double dollar signs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$
+eqt
+$$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sup Globe</title>
       <link>/post/sup-globe/</link>
-      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/sup-globe/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>

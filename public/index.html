@@ -24,7 +24,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.43" />
+<meta name="generator" content="Hugo 0.40.1" />
 
 
 <link rel="canonical" href="/" />
@@ -58,7 +58,7 @@
 
 
 
-<meta property="og:updated_time" content="2016-07-09T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2016-05-02T00:00:00&#43;00:00"/>
 
 
 
@@ -141,9 +141,44 @@
     
       <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/install-windows-subsystem-for-linux/">Install Windows Subsystem for Linux</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/markdown-language/">Markdown Language Overview</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2016-07-09 </span>
+      <span class="post-time"> 2016-05-02 </span>
+      <div class="post-category">
+          
+            <a href="/categories/markdown/"> markdown </a>
+          
+        </div>
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <h1 id="what-is-markdown">What is markdown?</h1>
+
+<p>Markdown is a text to HTML conversion tool for anyone wanting to document on the web. It allowes you to write plain text format that then is converted it to valid HTML.</p>
+
+<p>It was created in 2004 by Jhon Gruber with collaboration with others including Aaron Swartz. Its syntax is influnec by previous text-to-HTML filters including <em>Setext</em>, <em>atx</em>, <em>Textile</em>, <em>reStructuredText</em>, <em>Grutatext</em>, and <em>EtText</em>.</p>
+
+<p>The main difference is that markdown&rsquo;s syntax is comprised entirely of punctuation characters as to look like what they mean.</p>
+
+<p>Markdown is a lightweight super eazy<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> to use markup language that is widely used today.</p>
+
+<p></p>
+    </div>
+    <div class="read-more">
+      <a href="/post/markdown-language/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/installing-anaconda-on-wls/">Installing Anaconda on  WLS</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2016-04-12 </span>
       
       
     </div>
@@ -151,11 +186,48 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <h2 id="whaaa">Whaaa..</h2>
+      <p><img src="/images/installing-anaconda-on-wls/anaconda_horizontal.png" alt="alt text" /></p>
 
-<p>Ea et culpa pariatur anim mollit enim ullamco id tempor dolore nostrud id voluptate. Amet mollit enim nisi Lorem ex veniam adipisicing et pariatur nostrud. Culpa ad occaecat consectetur do proident laborum. Et mollit sint anim anim laborum quis reprehenderit tempor ad ad.</p>
+<h1 id="difference-between-conda-and-anaconda">Difference between conda and Anaconda</h1>
 
-<p>Magna do eu proident reprehenderit est voluptate nisi consectetur cillum ut excepteur velit. Ullamco Lorem aliqua commodo enim dolore sint esse. Culpa consequat in non laborum cillum culpa anim ipsum irure veniam deserunt. Sit voluptate minim officia non aute ipsum proident quis deserunt. Ipsum cillum in ea exercitation eiusmod laborum dolore consectetur mollit do Lorem.</p>
+<p>conda is the package manager. Anaconda is a set of about a hundred packages including conda, numpy, scipy, ipython notebook, and so on.</p>
+
+<p>You installed Miniconda, which is a smaller alternative to Anaconda that is just conda and its dependencies (as opposed to Anaconda, which is conda and a bunch of other packages like numpy, scipy, ipython notebook, etc.). Once you have Miniconda, you can easily install Anaconda into it with conda install anaconda.
+</p>
+    </div>
+    <div class="read-more">
+      <a href="/post/installing-anaconda-on-wls/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/install-windows-subsystem-for-linux/">Linux on Windows</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2016-03-12 </span>
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p><img src="/images/install-windows-subsystem-for-linux/bashonwindows0.png" alt="alt text" /></p>
+
+<p>For those who want to run Linux without dual booting your machine or  sharing resources by using a virtual machine, Windows Subsytem for Linux is the best option.</p>
+
+<p>The Windows Subsystem for Linux lets us run Linux environments like popular command-line tools, utilities and applications <em>inside</em> windows.
+Windows Subsytem for Linux or (WLS) its a layer fo running Linux binary files natively on Windows 10 and its awesome.  It provides a Linux-compatible kernel interface develop by Microsoft that then can run a GNU userland on top of it, like Ubuntu.</p>
+
+<h3 id="what-can-we-do-with-wls">What can we do with WLS</h3>
+
+<blockquote>
+<p>short answer: Bash on windows!</p>
+</blockquote>
+
+<p>Having bash on Windows is a great tool for developers comming from a Linux/Unix enviroment that want/need to work with a Windows 10 machine.</p>
 
 <p></p>
     </div>
@@ -182,7 +254,20 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <p></p>
+      <h2 id="latex">$\LaTeX$</h2>
+
+<p>LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.</p>
+
+<p>For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.</p>
+
+<p>In most Markdown editors, you write a math equation inside two single dollar signs <code>$eqt$</code>, or double dollar signs</p>
+
+<pre><code class="language-latex">$$
+eqt
+$$
+</code></pre>
+
+<p></p>
     </div>
     <div class="read-more">
       <a href="/post/math-latex-examples/" class="read-more-link">Read more..</a>
@@ -195,7 +280,7 @@
   <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/sup-globe/">Sup Globe</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2016-01-09 </span>
+      <span class="post-time"> 2016-01-01 </span>
       
       
     </div>
@@ -272,6 +357,7 @@
 <script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
   <script type="text/javascript">
     window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
       showProcessingMessages: false,
       messageStyle: 'none'
     };
@@ -280,15 +366,11 @@
 
 
 <script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-105781975-1', 'auto');
-	
-	ga('send', 'pageview');
-}
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-105781975-1', 'auto');
+ga('send', 'pageview');
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
 
 
 

@@ -13,6 +13,7 @@ author: ""
 # P.S. comment can only be closed
 comment: false
 toc: false
+fancybox : true 
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false

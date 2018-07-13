@@ -12,7 +12,7 @@ toc: false
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false
-reward: false
+fancybox : false
 mathjax: false
 mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
