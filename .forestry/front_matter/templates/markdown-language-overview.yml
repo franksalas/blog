@@ -1,7 +1,7 @@
 ---
-label: Markdown Language Overview
-hide_body: 
-is_partial: 
+label: blog_post_template
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -38,3 +38,5 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: boolean
+  default: false
