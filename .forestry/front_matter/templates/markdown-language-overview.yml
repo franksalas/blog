@@ -40,3 +40,5 @@ fields:
   default: ''
 - type: boolean
   default: false
+pages:
+- content/post/demo-post.md
