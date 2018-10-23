@@ -40,5 +40,11 @@ fields:
   default: ''
 - type: boolean
   default: false
+- type: text
+  name: toc
+  config:
+    required: true
+  default: 'false'
+- type: blocks
 pages:
 - content/post/demo-post.md
