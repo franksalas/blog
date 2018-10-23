@@ -2,6 +2,7 @@
 categories = []
 date = "2018-10-23T02:20:12+00:00"
 description = ""
+draft = true
 keywords = []
 slug = ""
 tags = []
