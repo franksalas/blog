@@ -47,4 +47,5 @@ fields:
   default: 'false'
 - type: blocks
 pages:
+- content/post/crime-analysis.md
 - content/post/demo-post.md
