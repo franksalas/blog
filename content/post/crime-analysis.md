@@ -241,7 +241,10 @@ df.rename(columns={
 }, inplace=True)
 ```
 - here we drop our old columns and some unused
+
+
 - using `inplace=True` allowes us to do it in one line
+
 ```python
 df.drop(['suffix','street name','block range','offenses'],axis=1, inplace=True)
 ```
