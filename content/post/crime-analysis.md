@@ -25,6 +25,7 @@ mathjaxEnableAutoNumber: false
 In this tutorial, we will load and clean UCR, Uniform Crime Report data for 2017 for the city of Houston, Tx.
 
 The UCR data contained in these reports are presented in a monthly breakdown of Part I crimes for which HPD wrote police reports. The data is furthered broken down by police districts and beats and shows descriptions of the following types of crimes:
+
 - Murder
 - Rape
 - Robbery
