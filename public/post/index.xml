@@ -17,8 +17,18 @@
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/crime-analysis/</guid>
-      <description>In this tutorial, we will load and clean UCR, Uniform Crime Report data for 2017 for the city of Houston, Tx.
-The UCR data contained in these reports are presented in a monthly breakdown of Part I crimes for which HPD wrote police reports. The data is furthered broken down by police districts and beats and shows descriptions of the following types of crimes: - Murder - Rape - Robbery - Aggravated assault - Burglary - Theft - Auto theft</description>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/crime-analysis/crime.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, we will load and clean UCR, Uniform Crime Report data for 2017 for the city of Houston, Tx.&lt;/p&gt;
+
+&lt;p&gt;The UCR data contained in these reports are presented in a monthly breakdown of Part I crimes for which HPD wrote police reports. The data is furthered broken down by police districts and beats and shows descriptions of the following types of crimes:
+- Murder
+- Rape
+- Robbery
+- Aggravated assault
+- Burglary
+- Theft
+- Auto theft&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,7 +37,9 @@ The UCR data contained in these reports are presented in a monthly breakdown of 
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/markdown-language/</guid>
-      <description>&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is markdown?&lt;/h1&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/images/markdown-lang/markdown_logo.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is markdown?&lt;/h1&gt;
 
 &lt;p&gt;Markdown is a text to HTML conversion tool for anyone wanting to document on the web. It allowes you to write plain text format that then is converted it to valid HTML.&lt;/p&gt;
 

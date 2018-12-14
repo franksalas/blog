@@ -17,7 +17,9 @@
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/markdown-language/</guid>
-      <description>&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is markdown?&lt;/h1&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/images/markdown-lang/markdown_logo.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is markdown?&lt;/h1&gt;
 
 &lt;p&gt;Markdown is a text to HTML conversion tool for anyone wanting to document on the web. It allowes you to write plain text format that then is converted it to valid HTML.&lt;/p&gt;
 
