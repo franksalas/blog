@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Nano text exitor - sal.as</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Francisco Salas" /><meta name="description" content="intro  The need to format a file quickly &amp;hellip;
+ Every time I wanted to edit a file throught the command line somehow I end up rebooting my laptop because I ended up stuck in vim.
+I&amp;#39;ve been using Vim for about 2 years now, mostly because I can&amp;#39;t figure out how to exit it.
+&amp;mdash; I Am Devloper (@iamdevloper) February 17, 2014 " /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.52 with even 4.0.0" />
+
+
+<link rel="canonical" href="/post/nano-text-exitor/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.ba80ea6e.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<meta property="og:title" content="Nano text exitor" />
+<meta property="og:description" content="intro
+
+
+The need to format a file quickly &hellip;
+
+
+Every time I wanted to edit a file throught the command line somehow I end up rebooting my laptop because I ended up stuck in vim.
+
+I&#39;ve been using Vim for about 2 years now, mostly because I can&#39;t figure out how to exit it.&mdash; I Am Devloper (@iamdevloper) February 17, 2014
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/nano-text-exitor/" /><meta property="article:published_time" content="2016-07-12T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-07-12T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="Nano text exitor">
+<meta itemprop="description" content="intro
+
+
+The need to format a file quickly &hellip;
+
+
+Every time I wanted to edit a file throught the command line somehow I end up rebooting my laptop because I ended up stuck in vim.
+
+I&#39;ve been using Vim for about 2 years now, mostly because I can&#39;t figure out how to exit it.&mdash; I Am Devloper (@iamdevloper) February 17, 2014
+">
+
+
+<meta itemprop="datePublished" content="2016-07-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2016-07-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="177">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Nano text exitor"/>
+<meta name="twitter:description" content="intro
+
+
+The need to format a file quickly &hellip;
+
+
+Every time I wanted to edit a file throught the command line somehow I end up rebooting my laptop because I ended up stuck in vim.
+
+I&#39;ve been using Vim for about 2 years now, mostly because I can&#39;t figure out how to exit it.&mdash; I Am Devloper (@iamdevloper) February 17, 2014
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">sal.as</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">sal.as</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Nano text exitor</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2016-07-12 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <h2 id="intro">intro</h2>
+
+<blockquote>
+<p>The need to format a file quickly &hellip;</p>
+</blockquote>
+
+<p>Every time I wanted to edit a file throught the command line somehow I end up rebooting my laptop because I ended up stuck in vim.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve been using Vim for about 2 years now, mostly because I can&#39;t figure out how to exit it.</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/435555976687923200?ref_src=twsrc%5Etfw">February 17, 2014</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Nano is a text-editor  that uses a command-line interface. Unlike Vim or Emacs that have steep learning curve nano is super easy to get started.</p>
+
+<h2 id="installation">installation</h2>
+
+<p>First lets check if its installed</p>
+
+<pre><code class="language-$">nano --version
+</code></pre>
+
+<p>The output should be something similar to this:</p>
+
+<pre><code class="language-$">GNU nano version 2.2.6 (compiled 14:12:08, Oct  1 2012)
+ (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007,
+ 2008, 2009 Free Software Foundation, Inc.
+ Email: nano@nano-editor.org    Web: http://www.nano-editor.org/
+ Compiled options: --disable-wrapping-as-root --enable-color --enable-extra --enable-multibuffer --enable-nanorc --enable-utf8
+
+</code></pre>
+
+<p>If somehow you dont have nano installed, just follow the instructions on the <a href="https://www.nano-editor.org/download.php">official site</a></p>
+
+<h2 id="commands">commands</h2>
+
+<h3 id="create-a-new-file">Create a new file</h3>
+
+<pre><code class="language-$">$ nano new_file.py
+</code></pre>
+
+<h3 id="open-file">Open file</h3>
+
+<pre><code class="language-$">nano old_file.py
+</code></pre>
+
+<h3 id="open-file-as-read-only">Open file as read only</h3>
+
+<pre><code class="language-$">nano -v myfile
+</code></pre>
+
+<h2 id="tips">tips</h2>
+
+<p><img src="/images/nano-text-exitor/" alt="alt text" /></p>
+    </div>
+
+    <footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/shortcodes/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Shortcodes</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/markdown-language/">
+            <span class="next-text nav-default">Markdown Language Overview</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:frank.salas@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://bit.ly/infranksalas" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://bit.ly/ghfranksalas" class="iconfont icon-github" title="github"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2016 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Francisco Salas</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.ece58db6.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

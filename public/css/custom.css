@@ -1,0 +1,20 @@
+
+/* Add to ~/.ipython/profile_default/static/custom/custom.css */
+
+/* Pretty Pandas Dataframes */
+.dataframe * {border-color: #c0c0c0 !important;}
+.dataframe th{background: #eee;}
+.dataframe td{text-align: right; min-width:5em;}
+
+/* Format summary rows */
+.dataframe-summary-row tr:last-child,
+.dataframe-summary-col td:last-child{
+    background: #eee;
+    font-weight: 500;
+}
+
+/* font */
+.dataframe{
+    font-family:  'Consolas';
+    font-size:      12px;
+}

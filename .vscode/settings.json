@@ -1,4 +1,6 @@
 {
     "python.linting.pylintEnabled": false,
-    "python.pythonPath": "C:\\Users\\frank\\Anaconda3\\python.exe"
+    "python.pythonPath": "/home/frank/anaconda3/bin/python",
+    "python.jediEnabled": false,
+    "git.ignoreLimitWarning": true
 }

@@ -18,6 +18,8 @@ mathjaxEnableAutoNumber: false
 ---
 
 
+![alt text][img1]
+
 # What is markdown?
 
 Markdown is a text to HTML conversion tool for anyone wanting to document on the web. It allowes you to write plain text format that then is converted it to valid HTML.
@@ -372,3 +374,9 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 
 
 [^1]: my opinion
+
+
+
+
+
+[img1]: /images/markdown-lang/markdown_logo.png

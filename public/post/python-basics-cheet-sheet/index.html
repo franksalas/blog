@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Python Basics Cheet Sheet - sal.as</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Francisco Salas" /><meta name="description" content="Variables adn Data Types Variable Assignment x = 5  x  5
+Calcuations With Variables x&#43;2 # sum of two variables  7
+x-2 # substraction of two variables  3
+x*2 # multiplication of two variables  10
+x**2 # exponentional of a variable  25
+x%2 # remainder of a variable  1
+x/float(2) # division of a variable  2.5
+Types and Type Conversion Varibles to string str(&#39;5&#39;)  &amp;lsquo;5&amp;rsquo;" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.52 with even 4.0.0" />
+
+
+<link rel="canonical" href="/post/python-basics-cheet-sheet/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.ba80ea6e.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<meta property="og:title" content="Python Basics Cheet Sheet" />
+<meta property="og:description" content="Variables adn Data Types Variable Assignment x = 5  x  5
+Calcuations With Variables x&#43;2 # sum of two variables  7
+x-2 # substraction of two variables  3
+x*2 # multiplication of two variables  10
+x**2 # exponentional of a variable  25
+x%2 # remainder of a variable  1
+x/float(2) # division of a variable  2.5
+Types and Type Conversion Varibles to string str(&#39;5&#39;)  &lsquo;5&rsquo;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/python-basics-cheet-sheet/" /><meta property="article:published_time" content="2018-06-09T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-06-09T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="Python Basics Cheet Sheet">
+<meta itemprop="description" content="Variables adn Data Types Variable Assignment x = 5  x  5
+Calcuations With Variables x&#43;2 # sum of two variables  7
+x-2 # substraction of two variables  3
+x*2 # multiplication of two variables  10
+x**2 # exponentional of a variable  25
+x%2 # remainder of a variable  1
+x/float(2) # division of a variable  2.5
+Types and Type Conversion Varibles to string str(&#39;5&#39;)  &lsquo;5&rsquo;">
+
+
+<meta itemprop="datePublished" content="2018-06-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-06-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="426">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python Basics Cheet Sheet"/>
+<meta name="twitter:description" content="Variables adn Data Types Variable Assignment x = 5  x  5
+Calcuations With Variables x&#43;2 # sum of two variables  7
+x-2 # substraction of two variables  3
+x*2 # multiplication of two variables  10
+x**2 # exponentional of a variable  25
+x%2 # remainder of a variable  1
+x/float(2) # division of a variable  2.5
+Types and Type Conversion Varibles to string str(&#39;5&#39;)  &lsquo;5&rsquo;"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">sal.as</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">sal.as</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Python Basics Cheet Sheet</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-06-09 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      
+
+<h2 id="variables-adn-data-types">Variables adn Data Types</h2>
+
+<h3 id="variable-assignment">Variable Assignment</h3>
+
+<pre><code class="language-python">x = 5
+</code></pre>
+
+<pre><code class="language-python">x
+</code></pre>
+
+<p>5</p>
+
+<h2 id="calcuations-with-variables">Calcuations With Variables</h2>
+
+<pre><code class="language-python">x+2  # sum of two variables
+</code></pre>
+
+<p>7</p>
+
+<pre><code class="language-python">x-2  # substraction of two variables
+</code></pre>
+
+<p>3</p>
+
+<pre><code class="language-python">x*2  # multiplication of two variables
+</code></pre>
+
+<p>10</p>
+
+<pre><code class="language-python">x**2  # exponentional of a variable
+</code></pre>
+
+<p>25</p>
+
+<pre><code class="language-python">x%2  # remainder of a variable
+</code></pre>
+
+<p>1</p>
+
+<pre><code class="language-python">x/float(2)  # division of a variable
+</code></pre>
+
+<p>2.5</p>
+
+<h2 id="types-and-type-conversion">Types and Type Conversion</h2>
+
+<h3 id="varibles-to-string">Varibles to string</h3>
+
+<pre><code class="language-python">str('5')
+</code></pre>
+
+<p>&lsquo;5&rsquo;</p>
+
+<pre><code class="language-python">str('3.5')
+</code></pre>
+
+<p>&lsquo;3.5&rsquo;</p>
+
+<h3 id="variables-to-integers">Variables to integers</h3>
+
+<pre><code class="language-python">int(5)
+</code></pre>
+
+<p>5</p>
+
+<h3 id="variables-to-floats">Variables to floats</h3>
+
+<pre><code class="language-python">float(5)
+</code></pre>
+
+<p>5.0</p>
+
+<h2 id="variables-to-booleans">Variables to booleans</h2>
+
+<pre><code class="language-python">bool(True)
+</code></pre>
+
+<p>True</p>
+
+<h2 id="asking-for-help">Asking for Help</h2>
+
+<pre><code class="language-python">help(str)
+</code></pre>
+
+<h2 id="strings">Strings</h2>
+
+<pre><code class="language-python">my_string = 'thisStringIsAwesome'
+my_string
+</code></pre>
+
+<p>&lsquo;thisStringIsAwesome&rsquo;</p>
+
+<h2 id="string-operations">String Operations</h2>
+
+<pre><code class="language-python"> my_string * 2
+</code></pre>
+
+<p>&lsquo;thisStringIsAwesomethisStringIsAwesome&rsquo;</p>
+
+<pre><code class="language-python"> my_string + 'Innit'
+</code></pre>
+
+<pre><code>'thisStringIsAwesomeInnit'
+</code></pre>
+
+<pre><code class="language-python">'m' in my_string
+</code></pre>
+
+<pre><code>True
+</code></pre>
+
+<h2 id="lists">Lists</h2>
+
+<pre><code class="language-python">a = 'is'
+b = 'nice'
+my_list = ['my', 'list', a, b]
+my_list2 = [[4,5,6,7], [3,4,5,6]]
+</code></pre>
+
+<h2 id="selecting-list-elements">Selecting List Elements</h2>
+
+<h3 id="subset">Subset</h3>
+
+<pre><code class="language-python">my_list[1]  # select item at index 1
+</code></pre>
+
+<pre><code>'list'
+</code></pre>
+
+<pre><code class="language-python">my_list[-3]  # select 3rd last item
+</code></pre>
+
+<pre><code>'list'
+</code></pre>
+
+<h3 id="slice">Slice</h3>
+
+<pre><code class="language-python">my_list[1:3]  # Select itehms at index1 and 2
+</code></pre>
+
+<pre><code>['list', 'is']
+</code></pre>
+
+<pre><code class="language-python">my_list[1:]  # select items after index 0
+</code></pre>
+
+<pre><code>['list', 'is', 'nice']
+</code></pre>
+
+<pre><code class="language-python">my_list[:3]  # select items before index 3
+</code></pre>
+
+<pre><code>['my', 'list', 'is']
+</code></pre>
+
+<pre><code class="language-python">my_list[:]  # copy my_list
+</code></pre>
+
+<pre><code>['my', 'list', 'is', 'nice']
+</code></pre>
+
+<h3 id="subset-lists-of-lists">Subset Lists of Lists</h3>
+
+<pre><code class="language-python">my_list[list][itemOfList]
+</code></pre>
+
+<pre><code class="language-python">my_list2[1][0]
+</code></pre>
+
+<pre><code>3
+</code></pre>
+
+<pre><code class="language-python">my_list2[1][:2]
+</code></pre>
+
+<pre><code>[3, 4]
+</code></pre>
+
+<h2 id="list-operations">List Operations</h2>
+
+<pre><code class="language-python">my_list + my_list
+</code></pre>
+
+<pre><code>['my', 'list', 'is', 'nice', 'my', 'list', 'is', 'nice']
+</code></pre>
+
+<pre><code class="language-python">my_list * 2
+</code></pre>
+
+<pre><code>['my', 'list', 'is', 'nice', 'my', 'list', 'is', 'nice']
+</code></pre>
+
+<h2 id="list-methods">List Methods</h2>
+
+<pre><code class="language-python">my_list.index(a)  # get the index of an item
+</code></pre>
+
+<pre><code>2
+</code></pre>
+
+<pre><code class="language-python">my_list.count(a)  # count an item
+</code></pre>
+
+<pre><code>1
+</code></pre>
+
+<pre><code class="language-python">my_list.append('!')  #append an item at a time
+</code></pre>
+
+<pre><code class="language-python">my_list.remove('!')  # remove an item
+</code></pre>
+
+<pre><code class="language-python">del(my_list[0:1])    # remove an item
+</code></pre>
+
+<pre><code class="language-python">my_list.reverse()    #reverse the list
+</code></pre>
+
+<pre><code class="language-python">my_list.extend('!')  # append an item
+</code></pre>
+
+<pre><code class="language-python">my_list.pop(-1)     # remove an item
+</code></pre>
+
+<pre><code>'!'
+</code></pre>
+
+<pre><code class="language-python">my_list.insert(0,'!')  # insert an item
+</code></pre>
+
+<pre><code class="language-python">my_list.sort()   # sort the list
+</code></pre>
+
+<h2 id="string-methods">String Methods</h2>
+
+<pre><code class="language-python">my_string.upper()  # string to uppercase
+</code></pre>
+
+<pre><code>'THISSTRINGISAWESOME'
+</code></pre>
+
+<pre><code class="language-python">my_string.lower()  # string to lowercase
+</code></pre>
+
+<pre><code>'thisstringisawesome'
+</code></pre>
+
+<pre><code class="language-python">my_string.count('w')  # count string elements
+</code></pre>
+
+<pre><code>1
+</code></pre>
+
+<pre><code class="language-python">my_string.replace('e', 'i')  # replace string elements
+</code></pre>
+
+<pre><code>'thisStringIsAwisomi'
+</code></pre>
+
+<pre><code class="language-python">my_string.strip()  # strip whitespaces
+</code></pre>
+
+<pre><code>'thisStringIsAwesome'
+</code></pre>
+
+<h2 id="libraries">Libraries</h2>
+
+<pre><code class="language-python">import numpy as np   # import libraries
+</code></pre>
+
+<pre><code class="language-python">from math import pi  # selective import
+</code></pre>
+
+<h2 id="numpy-arrays">NumPy Arrays</h2>
+
+<pre><code class="language-python">my_list = [1, 2, 3, 4]
+my_array = np.array(my_list)
+my_2darray = np.array([[1,2,3],[4,5,6]])
+other_array = np.array([99,98,97,96])
+</code></pre>
+
+<h2 id="selecting-numpy-array-elements">Selecting Numpy Array Elements</h2>
+
+<p>Index starts at 0</p>
+
+<pre><code class="language-python">my_array[1]  # select item at index 1
+</code></pre>
+
+<pre><code>2
+</code></pre>
+
+<pre><code class="language-python">my_array[0:2]  # select items at index 0 and 1
+</code></pre>
+
+<pre><code>array([1, 2])
+</code></pre>
+
+<pre><code class="language-python">my_2darray[:,0]  # my_2darray[rows, columns]
+</code></pre>
+
+<pre><code>array([1, 4])
+</code></pre>
+
+<h2 id="numpy-array-functions">NumPy Array Functions</h2>
+
+<pre><code class="language-python">my_array.shape  # get the dimensions of the array
+</code></pre>
+
+<pre><code>(4,)
+</code></pre>
+
+<pre><code class="language-python">np.insert(my_array, 1, 5)  # insert items in an array
+</code></pre>
+
+<pre><code>array([1, 5, 2, 3, 4])
+</code></pre>
+
+<pre><code class="language-python">np.delete(my_array,[1])  # delete items in an array
+</code></pre>
+
+<pre><code>array([1, 3, 4])
+</code></pre>
+
+<pre><code class="language-python">np.mean(my_array)  # mean of the array
+</code></pre>
+
+<pre><code>2.5
+</code></pre>
+
+<pre><code class="language-python">np.median(my_array)  # median of the array
+</code></pre>
+
+<pre><code>2.5
+</code></pre>
+
+<pre><code class="language-python">np.std(my_array)  # standar deviatoin
+</code></pre>
+
+<pre><code>1.118033988749895
+</code></pre>
+
+    </div>
+
+    <footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/image-test/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">image test</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/hidden-post/">
+            <span class="next-text nav-default">This is a hidden post.</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:frank.salas@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://bit.ly/infranksalas" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://bit.ly/ghfranksalas" class="iconfont icon-github" title="github"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2016 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Francisco Salas</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.ece58db6.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

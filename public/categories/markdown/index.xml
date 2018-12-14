@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on sal.as</title>
+    <link>/categories/markdown/</link>
+    <description>Recent content in markdown on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Language Overview</title>
+      <link>/post/markdown-language/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/markdown-language/</guid>
+      <description>&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is markdown?&lt;/h1&gt;
+
+&lt;p&gt;Markdown is a text to HTML conversion tool for anyone wanting to document on the web. It allowes you to write plain text format that then is converted it to valid HTML.&lt;/p&gt;
+
+&lt;p&gt;It was created in 2004 by Jhon Gruber with collaboration with others including Aaron Swartz. Its syntax is influnec by previous text-to-HTML filters including &lt;em&gt;Setext&lt;/em&gt;, &lt;em&gt;atx&lt;/em&gt;, &lt;em&gt;Textile&lt;/em&gt;, &lt;em&gt;reStructuredText&lt;/em&gt;, &lt;em&gt;Grutatext&lt;/em&gt;, and &lt;em&gt;EtText&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The main difference is that markdown&amp;rsquo;s syntax is comprised entirely of punctuation characters as to look like what they mean.&lt;/p&gt;
+
+&lt;p&gt;Markdown is a lightweight super eazy&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to use markup language that is widely used today.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-$theme-color-config: 'Cobalt Blue';
+$theme-color-config: 'Mint Green';
 
 // Default theme color map
 $theme-color-map: (
@@ -43,7 +43,7 @@ $dark-gray: #8a8a8a !default;
 $global-font-color: #34495e !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
-$global-font-size: 18px !default;
+$global-font-size: 16px !default;
 
 // Global width of '<body>'.
 $global-body-width: 800px !default;
@@ -52,13 +52,13 @@ $global-body-width: 800px !default;
 $global-container-padding: 0 20px !default;
 
 // Default line height for all type. `$global-lineheight` is 24px while `$global-font-size` is 16px.
-$global-lineheight: 1.7 !default;
+$global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family:'Open Sans',  Athelas, STHeiti, serif !default;
+$global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -77,47 +77,25 @@ $global-headings: (
 // ========== Header ========== //
 // Padding of the site header.
 $header-padding: 20px 20px !default;
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 // Font family: Chancery
-// @font-face {
-//   font-family: 'Chancery';
-//   src: url('../fonts/chancery/apple-chancery-webfont.eot');
-//   src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
-//   url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
-//   url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
-//   url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
-//   url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
-//   font-weight: lighter;
-//   font-style: normal;
-// }
-
-
-// Font family:  'Open Sans'
-// @font-face {
-//   font-family: 'Open Sans';
-//   src: url('https://fonts.googleapis.com/css?family=Open+Sans');
-//   font-weight: lighter;
-//   font-style: normal;
-// }
-
-
-
-
-
-
-
-
-
-
-
+@font-face {
+  font-family: 'Chancery';
+  src: url('../fonts/chancery/apple-chancery-webfont.eot');
+  src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
+  url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
+  url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
+  url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
+  font-weight: lighter;
+  font-style: normal;
+}
 
 // Font size of the logo.
 $logo-font-size: 48px !default;
 
 // Font family of the logo.
+//$logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
 $logo-font-family: 'Open Sans', serif  !default;
 
 // Margin of menu item.
@@ -216,7 +194,7 @@ $code-color: #c7254e !default;
 $code-font-size: 13px !default;
 
 // Font family of the code.
-$code-font-family:  'Source Code Pro', Consolas, Monaco, Menlo, Consolas, monospace !default;
+$code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
@@ -258,9 +236,11 @@ $code-type-list: (
 
   language-erlang: "Erlang",
   language-go: "Go",
+  language-go-html-template: "Go HTML Template",
   language-groovy: "Groovy",
   language-haskell: "Haskell",
   language-kotlin: "Kotlin",
+  language-clojure: "Clojure",
   language-less: "Less",
   language-lisp: "Lisp",
   language-lua: "Lua",
@@ -272,8 +252,7 @@ $code-type-list: (
   language-typescript: "TypeScript",
   language-yml: "YAML",
   language-yaml: "YAML",
-  language-toml: "TOML",
-  language-out: "output",
+  language-toml: "TOML"
 ) !default;
 
 // Color of the code background.
@@ -334,27 +313,15 @@ $archive-post-hover-transition: 0.2s ease-out !default;
 // Transform of the archive post when hover it.
 $archive-post-hover-transform: translateX(4px) !default;
 
+// ========== General Terms ========== //
+// Font size of the terms title.
+$terms-title-size: 18px !default;
 
-// ========== Tags ========== //
-// Font soze of the tag cloud title.
-$tag-cloud-title-size: 18px !default;
+// Border bottom of the terms title.
+$terms-title-border-bottom: 2px solid $theme-color !default;
 
-// Border bottom of the tag cloud title.
-$tag-cloud-title-border-bottom: 2px solid $theme-color !default;
+// Margin of the terms link.
+$terms-link-margin: 5px 10px !default;
 
-// Margin of the tag cloud tags link.
-$tag-cloud-tags-link-margin: 5px 10px !default;
-
-
-// ========== Categories ========== //
-// Font soze of the categories title.
-$categories-title-size: 18px !default;
-
-// Border bottom of the categories title.
-$categories-title-border-bottom: 2px solid $theme-color !default;
-
-// Margin of the categories tags link.
-$categories-tags-link-margin: 5px 10px !default;
-
-// Font size of the category count
-$category-count-font-size: 12px !default;
+// Font size of the terms count
+$terms-count-font-size: 12px !default;

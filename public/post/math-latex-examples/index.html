@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Math Latex Examples - sal.as</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Francisco Salas" /><meta name="description" content="$\LaTeX$ LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.
+For now, we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.
+In most Markdown editors, you write a math equation inside two single dollar signs $eqt$, or double dollar signs
+$$ eqt $$ " /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.52 with even 4.0.0" />
+
+
+<link rel="canonical" href="/post/math-latex-examples/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.aacf5678.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<meta property="og:title" content="Math Latex Examples" />
+<meta property="og:description" content="$\LaTeX$
+
+LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.
+
+For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.
+
+In most Markdown editors, you write a math equation inside two single dollar signs $eqt$, or double dollar signs
+
+$$
+eqt
+$$
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/math-latex-examples/" /><meta property="article:published_time" content="2016-02-09T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-02-09T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="Math Latex Examples">
+<meta itemprop="description" content="$\LaTeX$
+
+LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.
+
+For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.
+
+In most Markdown editors, you write a math equation inside two single dollar signs $eqt$, or double dollar signs
+
+$$
+eqt
+$$
+">
+
+
+<meta itemprop="datePublished" content="2016-02-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2016-02-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="747">
+
+
+
+<meta itemprop="keywords" content="LaTeX," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Math Latex Examples"/>
+<meta name="twitter:description" content="$\LaTeX$
+
+LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.
+
+For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.
+
+In most Markdown editors, you write a math equation inside two single dollar signs $eqt$, or double dollar signs
+
+$$
+eqt
+$$
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">sal.as</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">sal.as</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Math Latex Examples</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2016-02-09 </span>
+        <div class="post-category">
+            <a href="/categories/math/"> math </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <h2 id="latex">$\LaTeX$</h2>
+
+<p>LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.</p>
+
+<p>For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.</p>
+
+<p>In most Markdown editors, you write a math equation inside two single dollar signs <code>$eqt$</code>, or double dollar signs</p>
+
+<pre><code class="language-latex">$$
+eqt
+$$
+</code></pre>
+
+<h2 id="operators">Operators</h2>
+
+<pre><code>\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+</code></pre>
+
+<p>$$
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+$$</p>
+
+<h2 id="limits">limits</h2>
+
+<pre><code class="language-latex">\lim_{x \to \infty} \exp(-x) = 0
+</code></pre>
+
+<p>$$
+\lim_{x \to \infty} \exp(-x) = 0
+$$</p>
+
+<h2 id="powers-and-indices">Powers and indices</h2>
+
+<pre><code class="language-latex">n^{22}
+</code></pre>
+
+<p>$n^{22}$</p>
+
+<pre><code class="language-latex">f(n) = n^5 + 4n^2 + 2 |_{n=17}
+</code></pre>
+
+<p>$$
+f(n) = n^5 + 4n^2 + 2 |_{n=17}
+$$</p>
+
+<h2 id="fractions-and-binomials">Fractions and Binomials</h2>
+
+<pre><code class="language-latex">\frac{n!}{k!(n-k)!} = \binom{n}{k}
+</code></pre>
+
+<p>$$
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+$$</p>
+
+<pre><code class="language-latex">\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
+</code></pre>
+
+<p>$$
+\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
+$$</p>
+
+<h2 id="sums-and-integrals">Sums and integrals</h2>
+
+<pre><code class="language-latex">\sum_{i=1}^{10} t_i
+</code></pre>
+
+<p>$$
+\sum_{i=1}^{10} t_i
+$$</p>
+
+<pre><code class="language-latex">\displaystyle\sum_{i=1}^{10} t_i
+</code></pre>
+
+<p>$$
+\displaystyle\sum_{i=1}^{10} t_i
+$$</p>
+
+<pre><code class="language-latex">\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
+</code></pre>
+
+<p>$$
+\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
+$$</p>
+
+<pre><code class="language-latex">\sum_{\substack{
+   0&lt;i&lt;m \\
+   0&lt;j&lt;n
+  }} 
+ P(i,j)
+</code></pre>
+
+<p>$$
+\sum_{\substack{
+   0&lt;i&lt;m <br />
+   0&lt;j&lt;n
+  }}
+ P(i,j)
+ $$</p>
+
+<hr />
+
+<h2 id="brackets-braces-and-delimiters">Brackets, braces and delimiters</h2>
+
+<pre><code class="language-latex">( a ), [ b ], \{ c \}, | d |, \| e \|,
+\langle f \rangle, \lfloor g \rfloor,
+\lceil h \rceil, \ulcorner i \urcorner
+</code></pre>
+
+<p>$$
+( a ), [ b ], { c }, | d |, | e |,
+\langle f \rangle, \lfloor g \rfloor,
+\lceil h \rceil, \ulcorner i \urcorner
+$$</p>
+
+<h2 id="manual-sizing">Manual sizing</h2>
+
+<pre><code class="language-latex">( \big( \Big( \bigg( \Bigg( word \Bigg)  \bigg) \Big) \big) )
+</code></pre>
+
+<p>$$
+( \big( \Big( \bigg( \Bigg( word \Bigg) \bigg) \Big) \big) )
+$$</p>
+
+<pre><code class="language-latex">\frac{\mathrm d}{\mathrm d x} \left( k g(x) \right)
+</code></pre>
+
+<p>$$
+\frac{\mathrm d}{\mathrm d x} \left( k g(x) \right)
+$$</p>
+
+<h2 id="color">Color</h2>
+
+<pre><code class="language-latex">k = {\color{red}x} \mathbin{\color{blue}-} 2
+</code></pre>
+
+<p>$$
+k = {\color{red}x} \mathbin{\color{blue}-} 2
+$$</p>
+
+<h2 id="manually-specifying-formula-style">Manually Specifying Formula Style</h2>
+
+<pre><code class="language-latex">\begin{equation}
+   C^i_j = {\textstyle \sum_k} A^i_k B^k_j
+\end{equation}
+</code></pre>
+
+<p>$$
+\begin{equation}
+   C^i_j = {\textstyle \sum_k} A^i_k B^k_j
+\end{equation}
+$$</p>
+
+<pre><code class="language-latex">\newcommand{\tsum}[1]{{\textstyle \sum_{#1}}}
+</code></pre>
+
+<p>$$
+\newcommand{\tsum}[1]{{\textstyle \sum_{#1}}}
+$$</p>
+
+<p>$$
+\begin{equation}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
+$$</p>
+
+<pre><code class="language-latex">\begin{equation}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
+</code></pre>
+
+<h1 id="list-of-mathematical-symbols">List of mathematical symbols</h1>
+
+<h2 id="trigonometric-functions">Trigonometric Functions</h2>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$\sin$</td>
+<td><code>\sin</code></td>
+<td>$\arcsin$</td>
+<td><code>\arcsin</code></td>
+<td>$\sinh$</td>
+<td><code>\sinh</code></td>
+<td>$\sec$</td>
+<td><code>\sec</code></td>
+</tr>
+
+<tr>
+<td>$\cos$</td>
+<td><code>\cos</code></td>
+<td>$\arccos$</td>
+<td><code>\arccos</code></td>
+<td>$\cosh$</td>
+<td><code>\cosh</code></td>
+<td>$\csc$</td>
+<td><code>\csc</code></td>
+</tr>
+
+<tr>
+<td>$\tan$</td>
+<td><code>\tan</code></td>
+<td>$\arctan$</td>
+<td><code>\arctan</code></td>
+<td>$\tanh$</td>
+<td><code>\tanh</code></td>
+<td>$\cot$</td>
+<td><code>\cot</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="other-symbols">Other Symbols</h2>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$\partial$</td>
+<td><code>\partial</code></td>
+<td>$\imath$</td>
+<td><code>\imath</code></td>
+<td>$\Re$</td>
+<td><code>\Re</code></td>
+<td>$\nabla$</td>
+<td><code>\nabla</code></td>
+<td>$\aleph$</td>
+<td><code>\aleph</code></td>
+</tr>
+
+<tr>
+<td>$\eth$</td>
+<td><code>\eth</code></td>
+<td>$jmath$</td>
+<td><code>\jmath</code></td>
+<td>$\Im$</td>
+<td><code>\Im</code></td>
+<td>$\Box$</td>
+<td><code>\Box</code></td>
+<td>$\beth$</td>
+<td><code>\beth</code></td>
+</tr>
+
+<tr>
+<td>$\hbar$</td>
+<td><code>\hbar</code></td>
+<td>$\ell$</td>
+<td><code>\ell</code></td>
+<td>$\wp$</td>
+<td><code>\wp</code></td>
+<td>$\infty$</td>
+<td><code>\infty</code></td>
+<td>$\gimel$</td>
+<td><code>\gimel</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="greek-letters">Greek Letters</h2>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>A and $\alpha$</td>
+<td>A and <code>\alpha</code></td>
+<td>N and $\nu$</td>
+<td>N and <code>\nu</code></td>
+</tr>
+
+<tr>
+<td>B and $\beta$</td>
+<td>B and <code>\beta</code></td>
+<td>$\Xi$ and $\xi$</td>
+<td><code>\Xi</code> and <code>\xi</code></td>
+</tr>
+
+<tr>
+<td>$\Gamma$ and $\gamma$</td>
+<td><code>\Gamma</code> and <code>\gamma</code></td>
+<td>O and o</td>
+<td><code>O</code> and <code>o</code></td>
+</tr>
+
+<tr>
+<td>$\Delta$ and $\delta$</td>
+<td><code>\Delta</code> and <code>\delta</code></td>
+<td>$\Pi$, $\pi$, and $\varpi$</td>
+<td><code>\Pi</code>, <code>\pi</code> and <code>\varpig</code></td>
+</tr>
+
+<tr>
+<td>E,  $\epsilon$, and $\varepsilon$</td>
+<td>E, <code>\epsilon</code>, and <code>\varepsilon</code></td>
+<td>P, $\rho$ and $\varrho$</td>
+<td>P, <code>\rho</code> and <code>\varrho</code></td>
+</tr>
+
+<tr>
+<td>Z and $\zeta$</td>
+<td>Z and <code>\zeta</code></td>
+<td>$\Sigma$, $\sigma$ and $\varsigma$</td>
+<td><code>\Sigma</code>, <code>\sigma</code> and <code>\varsigma</code></td>
+</tr>
+
+<tr>
+<td>H and $\eta$</td>
+<td>H and <code>\eta</code></td>
+<td>T and $\tau$</td>
+<td>T and <code>\tau</code></td>
+</tr>
+
+<tr>
+<td>$\Theta$, $\theta$ and $\vartheta$</td>
+<td><code>\Theta</code>, <code>\theta</code> and <code>\vartheta</code></td>
+<td>$\Upsilon$ and $\upsilon$</td>
+<td><code>\Upsilon</code> ,<code>\upsilon</code></td>
+</tr>
+
+<tr>
+<td>I and $\iota$</td>
+<td>I and <code>\iota</code></td>
+<td>$\Phi$, $\phi$ and $\varphi$</td>
+<td><code>\Phi</code>, <code>\phi</code> and <code>\varphi</code></td>
+</tr>
+
+<tr>
+<td>K, $\kappa$, $\varkappa$</td>
+<td>K, <code>\kappa</code>, <code>\varkappa</code></td>
+<td>X, $\chi$</td>
+<td>X, <code>\chi</code></td>
+</tr>
+
+<tr>
+<td>$\Lambda$, $\lambda$</td>
+<td><code>\Lambda</code>, <code>\lambda</code></td>
+<td>$\Psi$, $\psi$</td>
+<td><code>\Psi</code>, <code>\psi</code></td>
+</tr>
+
+<tr>
+<td>M, $\mu$</td>
+<td>M, <code>\mu</code></td>
+<td>$\Omega$, $\omega$</td>
+<td><code>\Omega</code>, <code>\omega</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="delimeters">Delimeters</h2>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$\uparrow$</td>
+<td><code>\uparrow</code></td>
+<td>${$</td>
+<td><code>\{</code></td>
+<td>$}$</td>
+<td><code>\}</code></td>
+</tr>
+
+<tr>
+<td>$\downarrow$</td>
+<td><code>\downarrow</code></td>
+<td>$\Uparrow$</td>
+<td><code>\Uparrow</code></td>
+<td>$\Downarrow$</td>
+<td><code>\Downarrow</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="relation-symbols">Relation Symbols</h2>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$&lt;$</td>
+<td><code>&lt;</code></td>
+<td>$&gt;$</td>
+<td><code>&gt;</code></td>
+<td>$=$</td>
+<td><code>=</code></td>
+<td>$\parallel$</td>
+<td><code>\parallel</code></td>
+<td>$\nparallel$</td>
+<td><code>\nparallel</code></td>
+</tr>
+
+<tr>
+<td>$\leq$</td>
+<td><code>\leq</code></td>
+<td>$\geq$</td>
+<td><code>\geq</code></td>
+<td>$\doteq$</td>
+<td><code>\doteq</code></td>
+<td>$\asymp$</td>
+<td><code>\asymp</code></td>
+<td>$\bowtie$</td>
+<td><code>\bowtie</code></td>
+</tr>
+
+<tr>
+<td>$\ll$</td>
+<td><code>\ll</code></td>
+<td>$\gg$</td>
+<td><code>\gg</code></td>
+<td>$\equiv$</td>
+<td><code>\equiv</code></td>
+<td>$\vdash$</td>
+<td><code>\vdash</code></td>
+<td>$\dashv$</td>
+<td><code>\dashv</code></td>
+</tr>
+
+<tr>
+<td>$\subset$</td>
+<td><code>\subset</code></td>
+<td>$\supset$</td>
+<td><code>\supset</code></td>
+<td>$\approx$</td>
+<td><code>\approx</code></td>
+<td>$\in$</td>
+<td><code>\in</code></td>
+<td>$\ni$</td>
+<td><code>\ni</code></td>
+</tr>
+
+<tr>
+<td>$\sqsubset$</td>
+<td><code>\sqsubset</code></td>
+<td>$\sqsupset$</td>
+<td><code>\sqsupset</code></td>
+<td>$\sim$</td>
+<td><code>\sim</code></td>
+<td>$\perp$</td>
+<td><code>\perp</code></td>
+<td>$\mid$</td>
+<td><code>\mid</code></td>
+</tr>
+
+<tr>
+<td>$\sqsubseteq$</td>
+<td><code>\sqsubseteq</code></td>
+<td>$\sqsupseteq$</td>
+<td><code>\sqsupseteq</code></td>
+<td>$\propto$</td>
+<td><code>\propto</code></td>
+<td>$\prec$</td>
+<td><code>\prec</code></td>
+<td>$\succ$</td>
+<td><code>\succ</code></td>
+</tr>
+
+<tr>
+<td>$\preceq$</td>
+<td><code>\preceq</code></td>
+<td>$\succeq$</td>
+<td><code>\succeq</code></td>
+<td>$\neq$</td>
+<td><code>\neq</code></td>
+<td>$\sphericalangle$</td>
+<td><code>\sphericalangle</code></td>
+<td>$\measuredangle$</td>
+<td><code>\measuredangle</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="binary-operations">Binary Operations</h2>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+<th>Symbol</th>
+<th>Script</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$\pm$</td>
+<td><code>\pm</code></td>
+<td>$\cap$</td>
+<td><code>\cap</code></td>
+<td>$\diamond$</td>
+<td><code>\diamond</code></td>
+<td>$\oplus$</td>
+<td><code>\oplus</code></td>
+</tr>
+
+<tr>
+<td>$\mp$</td>
+<td><code>\mp</code></td>
+<td>$\cup$</td>
+<td><code>\cup</code></td>
+<td>$\bigtriangleup$</td>
+<td><code>\bigtriangleup</code></td>
+<td>$\ominus$</td>
+<td><code>\ominus</code></td>
+</tr>
+
+<tr>
+<td>$\times$</td>
+<td><code>\times</code></td>
+<td>$\uplus$</td>
+<td><code>\uplus</code></td>
+<td>$\triangleleft$</td>
+<td><code>\triangleleft</code></td>
+<td>$\otimes$</td>
+<td><code>\otimes</code></td>
+</tr>
+
+<tr>
+<td>$\ast$</td>
+<td><code>\ast</code></td>
+<td>$\sqcap$</td>
+<td><code>\sqcap</code></td>
+<td>$\triangledown$</td>
+<td><code>\triangledown</code></td>
+<td>$\odot$</td>
+<td><code>\dot</code></td>
+</tr>
+
+<tr>
+<td>$\star$</td>
+<td><code>\star</code></td>
+<td>$\vee$</td>
+<td><code>\vee</code></td>
+<td>$\bigcirc$</td>
+<td><code>\bigcirc</code></td>
+<td>$\circ$</td>
+<td><code>\circ</code></td>
+</tr>
+
+<tr>
+<td>$\dagger$</td>
+<td><code>\dagger</code></td>
+<td>$\wedge$</td>
+<td><code>\wedge</code></td>
+<td>$\bullet$</td>
+<td><code>\bullet</code></td>
+<td>$\setminus$</td>
+<td><code>\setminus</code></td>
+</tr>
+
+<tr>
+<td>$\ddagger$</td>
+<td><code>\ddagger</code></td>
+<td>$\cdot$</td>
+<td><code>\cdot</code></td>
+<td>$\wr$</td>
+<td><code>\wr</code></td>
+<td>$\amalg$</td>
+<td><code>\amalg</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="references">References</h2>
+
+<ol>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">https://en.wikibooks.org/wiki/LaTeX/Mathematics</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Introduction">https://en.wikibooks.org/wiki/LaTeX/Introduction</a></li>
+</ol>
+    </div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/latex/">LaTeX</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/install-windows-subsystem-for-linux/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Linux on Windows</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/sup-globe/">
+            <span class="next-text nav-default">Sup Globe</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:frank.salas@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://bit.ly/infranksalas" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://bit.ly/ghfranksalas" class="iconfont icon-github" title="github"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2016 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Francisco Salas</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.afb34c68.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
