@@ -21,14 +21,17 @@
 
 &lt;p&gt;In this tutorial, we will load and clean UCR, Uniform Crime Report data for 2017 for the city of Houston, Tx.&lt;/p&gt;
 
-&lt;p&gt;The UCR data contained in these reports are presented in a monthly breakdown of Part I crimes for which HPD wrote police reports. The data is furthered broken down by police districts and beats and shows descriptions of the following types of crimes:
-- Murder
-- Rape
-- Robbery
-- Aggravated assault
-- Burglary
-- Theft
-- Auto theft&lt;/p&gt;</description>
+&lt;p&gt;The UCR data contained in these reports are presented in a monthly breakdown of Part I crimes for which HPD wrote police reports. The data is furthered broken down by police districts and beats and shows descriptions of the following types of crimes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Murder&lt;/li&gt;
+&lt;li&gt;Rape&lt;/li&gt;
+&lt;li&gt;Robbery&lt;/li&gt;
+&lt;li&gt;Aggravated assault&lt;/li&gt;
+&lt;li&gt;Burglary&lt;/li&gt;
+&lt;li&gt;Theft&lt;/li&gt;
+&lt;li&gt;Auto theft&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -78,7 +81,7 @@
 &lt;p&gt;The Windows Subsystem for Linux lets us run Linux environments like popular command-line tools, utilities and applications &lt;em&gt;inside&lt;/em&gt; windows.
 Windows Subsytem for Linux or (WLS) its a layer fo running Linux binary files natively on Windows 10 and its awesome.  It provides a Linux-compatible kernel interface develop by Microsoft that then can run a GNU userland on top of it, like Ubuntu.&lt;/p&gt;
 
-&lt;h3 id=&#34;what-can-we-do-with-wls&#34;&gt;What can we do with WLS&lt;/h3&gt;
+&lt;h3 id=&#34;what-can-we-do-with-wls&#34;&gt;What can we do with WLS?&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;short answer: Bash on windows!&lt;/p&gt;
