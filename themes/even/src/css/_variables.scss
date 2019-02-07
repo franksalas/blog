@@ -5,7 +5,7 @@
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-$theme-color-config: 'Other Red';
+$theme-color-config: 'Other Gray';
 
 // Default theme color map
 $theme-color-map: (
@@ -14,7 +14,10 @@ $theme-color-map: (
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
   'Dark Violet': #9932CC #f5f4fa,
-  'Other Red': rgb(139, 0, 12) #f5f4fa
+  'Other Red': rgb(161, 73, 81) #f5f4fa,
+  'Other Gray': rgb(99, 103, 104) #f5f4fa
+
+  
 );
 
 // Check theme color config.
@@ -102,13 +105,14 @@ $header-padding: 20px 20px !default;
 
 
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Sans+Condensed|IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100i');
 
 // Font size of the logo.
-$logo-font-size: 48px !default;
+$logo-font-size: 58px !default;
 
 // Font family of the logo.
 //$logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
-$logo-font-family: 'IBM Plex Sans Condensed', sans-serif  !default;
+$logo-font-family: 'IBM Plex Sans',italic sans-serif  !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;

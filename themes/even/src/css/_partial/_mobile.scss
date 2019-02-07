@@ -24,9 +24,11 @@
     margin-right: 50px;
 
     .logo {
-      font-size: 22px;
+      font-size: 42px;
       line-height: $mobile-navbar-height;
       font-family: $logo-font-family;
+      font-weight: 100;
+      font-style: italic;
     }
   }
 
