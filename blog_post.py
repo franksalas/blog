@@ -38,12 +38,20 @@ reward: false
 mathjax: false
 mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
----\n\n\n\n
+---\n\n\
+
+![alt text][img1]
 
 
 <!--more-->
 
-![alt text][img1]\n\n\n[img1]: /images/{slug}/
+
+{{{{% admonition type="info" title="References" details="true" %}}}}
+
+{{{{% /admonition %}}}}
+
+\n\n\n[img1]: /images/{slug}/
+
     """
     return post_template
 
