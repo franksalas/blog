@@ -4,7 +4,7 @@ date: 2019-02-01
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ['go','WSL']
 categories: []
 slug: install-golan-on-wsl
 comment: false

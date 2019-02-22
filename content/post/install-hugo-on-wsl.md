@@ -4,7 +4,7 @@ date: 2019-02-08
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ['hugo','go','WSL']
 categories: []
 slug: install-hugo-on-wsl
 comment: false

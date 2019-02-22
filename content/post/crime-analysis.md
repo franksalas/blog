@@ -4,8 +4,8 @@ date: 2018-02-22
 draft: false
 keywords: []
 description: ""
-tags: []
-categories: []
+tags: ['Jupyter']
+categories: ['ML']
 slug: crime-analysis
 comment: false
 toc: false

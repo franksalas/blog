@@ -4,7 +4,7 @@ date: 2019-02-19
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ['WSL']
 categories: []
 slug: create-alias-for-windows-app
 comment: false

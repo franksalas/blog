@@ -4,7 +4,7 @@ date: 2016-04-12
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ['conda','python']
 categories: []
 slug: installing-anaconda-on-wls
 comment: false
