@@ -5,6 +5,7 @@ Static site buid on Hugo, a static site  framework written in go,  deploid on Ne
 I wanted a place where I could write intresting things I've learned where I or anyone could go back to.
 
 ## Who is this?
+
 ![who](https://media.giphy.com/media/3tHXbjKLm2tkfMMgA0/giphy.gif)
 
 
@@ -57,4 +58,5 @@ content/
 ```
 
 ## Thats it
-![go home](https://media.giphy.com/media/1vWzzLEcMhl4Y/giphy.gif)
+
+![](https://media.giphy.com/media/xT0Gqr2V8DpUGdKgcU/giphy.gif)
