@@ -5,7 +5,7 @@ draft: false
 keywords: []
 description: ""
 tags: ['conda','python']
-categories: []
+categories: ['anacoda','python','WSL']
 slug: installing-anaconda-on-wls
 comment: false
 toc: false

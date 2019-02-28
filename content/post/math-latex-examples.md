@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: ""
 tags: ['LaTeX']
-categories: ['math']
+categories: ['math','laTex']
 slug: math-latex-examples
 comment: false
 toc: false

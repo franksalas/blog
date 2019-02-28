@@ -5,7 +5,7 @@ draft: false
 keywords: []
 description: ""
 tags: ['go','WSL']
-categories: []
+categories: ['go','WSL']
 slug: install-golan-on-wsl
 comment: false
 toc: false

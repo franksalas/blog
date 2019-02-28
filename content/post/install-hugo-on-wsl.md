@@ -5,7 +5,7 @@ draft: false
 keywords: []
 description: ""
 tags: ['hugo','go','WSL']
-categories: []
+categories: ['hugo','go','WSL']
 slug: install-hugo-on-wsl
 comment: false
 mathjax: false

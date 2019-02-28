@@ -20,12 +20,12 @@ mathjaxEnableAutoNumber: false
 
 
 
-
+![alt text][img1]
 
 
 <!--more-->
 
-![alt text][img1]
+
 
 
 [img1]: /images/sup-globe/doggo.jpg

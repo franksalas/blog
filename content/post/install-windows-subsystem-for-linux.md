@@ -5,7 +5,7 @@ draft: false
 keywords: []
 description: ""
 tags: ['linux']
-categories: []
+categories: ['WSL']
 slug: install-windows-subsystem-for-linux
 comment: false
 toc: false
