@@ -2,4 +2,4 @@ themes/even/node_modules
 /.vscode
 
 # cloud 9 
-/--baseURL=http:
+--baseURL=http:/
