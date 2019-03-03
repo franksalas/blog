@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conda on sal.as</title>
+    <link>//localhost:8080/tags/conda/</link>
+    <description>Recent content in conda on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:8080/tags/conda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Anaconda on  WLS</title>
+      <link>//localhost:8080/post/installing-anaconda-on-wls/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/post/installing-anaconda-on-wls/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:8080/images/installing-anaconda-on-wls/anaconda_horizontal.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;difference-between-conda-and-anaconda&#34;&gt;Difference between conda and Anaconda&lt;/h1&gt;
+
+&lt;p&gt;conda is the package manager. Anaconda is a set of about a hundred packages including conda, numpy, scipy, ipython notebook, and so on.&lt;/p&gt;
+
+&lt;p&gt;You installed Miniconda, which is a smaller alternative to Anaconda that is just conda and its dependencies (as opposed to Anaconda, which is conda and a bunch of other packages like numpy, scipy, ipython notebook, etc.). Once you have Miniconda, you can easily install Anaconda into it with conda install anaconda.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

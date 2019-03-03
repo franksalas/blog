@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web scraping on sal.as</title>
+    <link>/categories/web-scraping/</link>
+    <description>Recent content in web scraping on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Text Analysis on Comedy Specials:Part 1</title>
+      <link>/post/text-analysis-on-comedy-specials_01/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/text-analysis-on-comedy-specials_01/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/text-analysis-on-comedy-specials/nlp_comedy.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;comedy-is-subjective&#34;&gt;$Comedy\ is\ subjective.$&lt;/h1&gt;
+
+&lt;p&gt;Comedy is about delivering a story that gets a laugh.
+What you find funny, someone else might find it offensive or even tragic.
+However, what do we know about comedy?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Create Alias for Windows App - sal.as</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Francisco Salas" /><meta name="description" content="According to Larry Wall, the original author of the Perl programming language, there are three great virtues of a programmer:
+ Laziness Impatience Hubris  As a person who aligns himself with the first two virtues and is too dumb to know what the third one means, I find myself creating ways to reduce time wastage and increase productivity that is sometimes resulting in the inverse of it.
+In this tutorial, we will create an alias of a windows app to open within our bash terminal.
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.54.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="//localhost:8080/post/create-alias-for-windows-app/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.2b92dec5.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<meta property="og:title" content="Create Alias for Windows App" />
+<meta property="og:description" content="
+
+According to Larry Wall, the original author of the Perl programming language, there are three great virtues of a programmer:
+
+
+Laziness
+Impatience
+Hubris
+
+
+As a person who aligns himself with the first two virtues and is too dumb to know what the third one means, I find myself creating ways to reduce time wastage and increase productivity that is sometimes resulting in the inverse of it.
+
+In this tutorial, we will create an alias of a windows app to open within our bash terminal." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:8080/post/create-alias-for-windows-app/" />
+<meta property="article:published_time" content="2019-02-19T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-02-19T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="Create Alias for Windows App">
+<meta itemprop="description" content="
+
+According to Larry Wall, the original author of the Perl programming language, there are three great virtues of a programmer:
+
+
+Laziness
+Impatience
+Hubris
+
+
+As a person who aligns himself with the first two virtues and is too dumb to know what the third one means, I find myself creating ways to reduce time wastage and increase productivity that is sometimes resulting in the inverse of it.
+
+In this tutorial, we will create an alias of a windows app to open within our bash terminal.">
+
+
+<meta itemprop="datePublished" content="2019-02-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-02-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="635">
+
+
+
+<meta itemprop="keywords" content="WSL," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Create Alias for Windows App"/>
+<meta name="twitter:description" content="
+
+According to Larry Wall, the original author of the Perl programming language, there are three great virtues of a programmer:
+
+
+Laziness
+Impatience
+Hubris
+
+
+As a person who aligns himself with the first two virtues and is too dumb to know what the third one means, I find myself creating ways to reduce time wastage and increase productivity that is sometimes resulting in the inverse of it.
+
+In this tutorial, we will create an alias of a windows app to open within our bash terminal."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135004061-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135004061-1');
+</script>
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">sal.as</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/cv/">
+        <li class="mobile-menu-item"></li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">sal.as</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/cv/"></a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Create Alias for Windows App</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-02-19 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p><img src="/images/create-alias-for-windows-app/alias_logo.png" alt="alt text" /></p>
+
+<p>According to <a href="https://en.wikipedia.org/wiki/Larry_Wall">Larry Wall</a>, the original author of the Perl programming language, there are three great virtues of a programmer:</p>
+
+<ul>
+<li>Laziness</li>
+<li>Impatience</li>
+<li>Hubris</li>
+</ul>
+
+<p>As a person who aligns himself with the first two virtues and is too dumb to know what the third one means, I find myself creating ways to reduce time wastage and increase productivity that is sometimes resulting in the inverse of it.</p>
+
+<p>In this tutorial, we will create an alias of a windows app to open within our bash terminal.</p>
+
+<p><img src="https://media.giphy.com/media/cI320yRBJZcyc/giphy.gif" alt="questions" /></p>
+
+<h2 id="what-is-an-alias">What is an alias?</h2>
+
+<p>A bash alias is a command which enables a replacement of a word by another string, that&rsquo;s just $fancy\ talk$ for abbreviating a compact system command from a long one.</p>
+
+<p>They are defined on our <code>.bash_profile</code> or <code>.bashrc</code> file under our home <code>~</code> directory with this style of  structure:</p>
+
+<pre><code class="language-bash">alias short_code_name='path_or_command'
+</code></pre>
+
+<h2 id="example">Example</h2>
+
+<p>Let us say that we have a folder on our windows directory whose full path is</p>
+
+<pre><code>C:Users\{username}\Documents\linux_dev
+</code></pre>
+
+<p>if we wanted to access this folder quickly under our bash terminal by typing a command like <code>linux_dev</code>, our alias command looks something like this:</p>
+
+<pre><code class="language-bash"># at the bottom of our .bashrc or .bash_profile
+alias linux_dev='cd /mnt/c/Users/{username}/Documents/linux_dev'
+</code></pre>
+
+<ul>
+<li><p>Here, our shortcode name is <code>linux_dev</code>, but we could&rsquo;ve called it anything (preferably not a global variable).</p></li>
+
+<li><p>The command changes the directory <code>cd</code> followed by the path of our folder according to the Linux directory structure.</p></li>
+</ul>
+
+<div class="admonition tip"><p class="admonition-title">tip</p>
+  <p>to see a list of global variables, type <code>printenv</code> on your terminal.</p>
+
+</div>
+
+<p>Now that we know how alias work, let us create one for VS Code.</p>
+
+<h2 id="vs-code">VS Code</h2>
+
+<p>Visual Studio Code is a  great text editor developed by Microsoft, its based on Electron, a desktop GUI framework maintained by Github based on Node.js, and aperantly all the cool kids are on it now<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>The reason I choose VS Code instead of other lightweight text editors like sublime text or Github&rsquo;s Atom is that:</p>
+
+<ol>
+<li>It has a fantastic IntelliSense with built-in Extension market place, and over the last three years, VS Code has matured immensely and makes it easy for nubies to experience developers to get coding the second after you install it.</li>
+<li>You are not the boss of me<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup></li>
+</ol>
+
+<h2 id="find-origin-location">Find origin location</h2>
+
+<p><img src="https://media.giphy.com/media/4wuzE31HC6Lba/giphy.gif" alt="write_down" /></p>
+
+<p>Now that we decided what app to use we need to find the origin where the application is installed.</p>
+
+<p>According to Microsoft own documents, VS Code is installed under</p>
+
+<pre><code class="language-poertshell">C:\users\{username}\AppData\Local\Programs\Microsoft VS Code\Code.exe
+</code></pre>
+
+<h3 id="where-your-windows-system-drive-appears-in-linux">Where Your Windows System Drive Appears in Linux</h3>
+
+<p>The Windows Linux subsystem gives us to access to the Windows system drives; however, our bash environment doesn&rsquo;t know (or care?), so it places your Windows system drives under the <code>/mnt/</code> directory.</p>
+
+<div class="admonition tip"><p class="admonition-title">tip</p>
+  <p>The <code>/mnt</code> directory and its subdirectories are intended for use as the temporary mount points for mounting storage devices, such as CDROMs, floppy disks and USB (universal serial bus) key drives</p>
+
+</div>
+
+<h3 id="example-1">Example</h3>
+
+<p>If we wanted to access our <code>C:</code> drive under bash terminal, we would type</p>
+
+<pre><code class="language-bash">$ cd  /mnt/c
+
+$ pwd
+#/mnt/c
+</code></pre>
+
+<h2 id="finally-create-an-alias-for-our-windows-app">Finally Create an alias for our Windows App</h2>
+
+<p>Open your <code>.bashrc</code> or <code>.bash_profile</code> under the home directory with <code>nano</code> text editor, make sure you open it as a superuser</p>
+
+<pre><code class="language-bash">$ cd 
+#go home youre drunk
+
+$ sudo nano .bashrc
+</code></pre>
+
+<p>Scroll to the bottom of the file and append  our new alias code</p>
+
+<pre><code class="language-bash"># at the bootom of our .bashrc file
+alias vscode='/mnt/c/Users/{username}/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe'
+</code></pre>
+
+<p>type <kbd>Ctrl</kbd>+<kbd>o</kbd> to save our edits &amp; <kbd>Ctrl</kbd>+<kbd>x</kbd> to exit.</p>
+
+<ul>
+<li>Our bash shortcode keyword is <code>vscode</code></li>
+<li>the path is <code>/mnt/c/Users/{username}/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe'</code></li>
+</ul>
+
+<p>The reason the path looks odd especially under the folder name <code>\Microsoft VS Code</code> is that shell translates empty spaces diffrently than windows: <code>\Microsoft\ VS\ Code</code>.</p>
+
+<p>Let us reload our <code>.bashrc</code> file by typing</p>
+
+<pre><code class="language-bash">source ~/.bashrc
+</code></pre>
+
+<h2 id="test-it">Test it</h2>
+
+<pre><code class="language-bash">$ vscode .
+# opens app within the current directory
+# it should
+</code></pre>
+
+<p><img src="https://media.giphy.com/media/1U41ujsx7HDkk/giphy.gif" alt="thanks" /></p>
+
+<details class="admonition info"><summary class="admonition-title">References</summary>
+  <ul>
+<li><a href="https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/">https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/</a></li>
+<li><a href="https://code.visualstudio.com/docs/setup/windows">https://code.visualstudio.com/docs/setup/windows</a></li>
+<li><a href="http://www.linfo.org/mnt.html">http://www.linfo.org/mnt.html</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Alias_(command">https://en.wikipedia.org/wiki/Alias_(command</a>)</li>
+<li><a href="http://tldp.org/LDP/abs/html/aliases.html">http://tldp.org/LDP/abs/html/aliases.html</a></li>
+</ul>
+
+</details>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="https://nodejs.org/en/user-survey-report">https://nodejs.org/en/user-survey-report</a>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">subjective
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+</ol>
+</div>
+    </div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/wsl/">WSL</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/text-analysis-on-comedy-specials_01/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Text Analysis on Comedy Specials:Part 1</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/install-hugo-on-wsl/">
+            <span class="next-text nav-default">Install Hugo on WSL</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:frank.salas@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://bit.ly/infranksalas" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://bit.ly/ghfranksalas" class="iconfont icon-github" title="github"></a>
+  <a href="//localhost:8080/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+
+  <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#34495E', 'K3K4QVF2');kofiwidget2.draw();</script> 
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2016 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Francisco Salas</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.afb34c68.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=8080&mindelay=10"></' + 'script>')</script></body>
+</html>

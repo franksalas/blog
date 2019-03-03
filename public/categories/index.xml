@@ -20,6 +20,60 @@
     </item>
     
     <item>
+      <title>NLP</title>
+      <link>/categories/nlp/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>/categories/wsl/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/wsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anacoda</title>
+      <link>/categories/anacoda/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/anacoda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>/categories/go/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/categories/hugo/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laTex</title>
+      <link>/categories/latex/</link>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>markdown</title>
       <link>/categories/markdown/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
@@ -34,6 +88,24 @@
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>/categories/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/categories/python/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web scraping</title>
+      <link>/categories/web-scraping/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/web-scraping/</guid>
       <description></description>
     </item>
     

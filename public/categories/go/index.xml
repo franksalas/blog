@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on sal.as</title>
+    <link>/categories/go/</link>
+    <description>Recent content in go on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Hugo on WSL</title>
+      <link>/post/install-hugo-on-wsl/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/install-hugo-on-wsl/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/install-hugo-on-wsl/hugo_WLS.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Static websites have become popular over the years for its speed, simplicity, and low to no cost hosting.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install Golang on WSL</title>
+      <link>/post/install-golan-on-wsl/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/install-golan-on-wsl/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/installing-golan-on-wsl/golang_WLS.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go is a modern programming language developed at Google at around 2007 to improve programming productivity.
+It is increasingly popular for its many applications like Docker, Kubernetes and popular static site generator like Hugo.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, we will install Go on our Windows Linux Subsystem environment.&lt;/p&gt;
+
+&lt;p&gt;First, we will install it using Ubuntu&amp;rsquo;s package manager, and then we will install it using the binary distribution.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
