@@ -103,9 +103,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   linkToMarkDown = false    # Only effective when hugo will output .md files.           # 链接到markdown原始文件（仅当允许hugo生成markdown文件时有效）
   contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
-
   livereUID = ""            # LiveRe UID                  # 来必力
 
   baiduAnalytics = ""      # Baidu Analytics
