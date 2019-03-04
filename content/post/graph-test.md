@@ -12,13 +12,11 @@ toc: false
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false
-reward: false
 mathjax: false
 mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
 ---
 
-<!--<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plot.ly/~fsalas/1.embed"></iframe>-->
 ## Testing graph display
 ![alt text][img1]
 
@@ -50,9 +48,9 @@ mathjaxEnableAutoNumber: false
 {{< readfile file="/content/graphs/graph02.txt" >}}
 
 
-# graph 3
+# graph 3 on images dir
 
-{{< readfile file="/content/graphs/graph03.txt" >}}
+{{< readfile file="/images/graph-test/graph03.txt" >}}
 
 ---
 # graph 4 no responsive
