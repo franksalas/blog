@@ -55,10 +55,7 @@
 <script>eruda.init();</script>
 {{- end -}}
 
-<!-- busuanzi -->
-{{- if .Site.Params.busuanzi.enable -}}
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-{{- end -}}
+
 
 <!-- Styles -->
 <link href="{{ print "dist/" .Site.Data.even.assets.even.css | relURL }}" rel="stylesheet">
@@ -88,6 +85,7 @@
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->` | safeHTML }}
+
 
 
 <!--plotly-->
