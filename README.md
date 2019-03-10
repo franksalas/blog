@@ -52,7 +52,7 @@ If any file or directory were created previously, it will skip the steps.
 ```
 content/
     images/
-        name-of-blog-post/  // <- place images here
+        name-of-blog-post/  // <- place images & graphs here
     post/
         name-of-blog-post.md // blog post
 ```
