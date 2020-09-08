@@ -1,5 +1,4 @@
 # [sal.as](https://sal.as/)
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/124ccdcb-5d4c-45b2-84f9-cf0034e6a579/deploy-status)](https://app.netlify.com/sites/compassionate-lalande-a9440c/deploys)
 
 ## What is this?
