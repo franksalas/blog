@@ -241,7 +241,7 @@ Thats enough for today.
 On the next tutorial we will extract the transcript text from each link in our dataframe.
 
 
-[NOTEBOOK LINK](https://github.com/franksalas/comedy_text_analysis/blob/master/notebook/01_get_list.ipynb)
+[NOTEBOOK LINK](https://github.com/franksalas/comedy_text_analysis/blob/master/notebook/)
 
 
 
