@@ -92,8 +92,14 @@
   {{- end }}
 {{- end }}
 
-<!-- Analytics -->
+<!-- Analytics
 {{- if (in (slice (getenv "HUGO_ENV") hugo.Environment) "production") | and .Site.GoogleAnalytics -}}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{- end -}} -->
+
+
+<!-- Analytics -->
+{{- if .Site.GoogleAnalytics -}}
   {{ template "_internal/google_analytics_async.html" . }}
 {{- end -}}
 
