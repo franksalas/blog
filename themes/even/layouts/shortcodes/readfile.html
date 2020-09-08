@@ -1,4 +1,3 @@
-
 {{$file := .Get "file"}}
 {{- if eq (.Get "markdown") "true" -}}
 {{- $file  | readFile | markdownify -}}
