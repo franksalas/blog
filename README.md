@@ -14,15 +14,12 @@ I wanted a place where I could write intresting things I've learned where I or a
 - Just someone who likes :pizza: & :bread:
 - [Me work  history](https://www.linkedin.com/in/frank-salas/)
 
-- [Buy me Coffee?](https://ko-fi.com/K3K4QVF2)
-
 ---
 ## Requirements
-- go 1.11
-- Hugo 0.54
-- Theme is heavily modified version of [hugo-theme-even
-](https://github.com/olOwOlo/hugo-theme-even)
-- python
+- go 1.13.3
+- Hugo 0.75.0-DEV (req for new theme upgrade)
+- Theme is heavily modified version of [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)
+- python ( for `blog_post.py` file, it generates custom folders & template post)
 
 ## Build
 Clone repo
