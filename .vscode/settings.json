@@ -2,5 +2,6 @@
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "C:\\Users\\salas\\Miniconda3\\python.exe",
     "python.jediEnabled": false,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "python.languageServer": "Microsoft"
 }
