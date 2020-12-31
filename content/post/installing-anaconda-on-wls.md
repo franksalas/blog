@@ -1,12 +1,12 @@
 ---
-title: Installing Anaconda on  WLS
+title: Installing Anaconda on  WSL
 date: 2016-04-12
 draft: false
 keywords: []
 description: ""
 tags: ['conda','python']
 categories: ['anacoda','python','WSL']
-slug: installing-anaconda-on-wls
+slug: installing-anaconda-on-wsl
 comment: false
 toc: false
 autoCollapseToc: false

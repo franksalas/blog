@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WSL on sal.as</title>
@@ -6,19 +6,14 @@
     <description>Recent content in WSL on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/wsl/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/wsl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Hugo on WSL</title>
       <link>/post/install-hugo-on-wsl/</link>
       <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/install-hugo-on-wsl/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/images/install-hugo-on-wsl/hugo_WLS.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;/images/install-hugo-on-wsl/hugo_WLS.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Static websites have become popular over the years for its speed, simplicity, and low to no cost hosting.&lt;/p&gt;</description>
     </item>
     
@@ -28,13 +23,10 @@
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/install-golan-on-wsl/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/images/installing-golan-on-wsl/golang_WLS.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;/images/installing-golan-on-wsl/golang_WLS.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Go is a modern programming language developed at Google at around 2007 to improve programming productivity.
 It is increasingly popular for its many applications like Docker, Kubernetes and popular static site generator like Hugo.&lt;/p&gt;
-
 &lt;p&gt;In this tutorial, we will install Go on our Windows Linux Subsystem environment.&lt;/p&gt;
-
 &lt;p&gt;First, we will install it using Ubuntu&amp;rsquo;s package manager, and then we will install it using the binary distribution.&lt;/p&gt;</description>
     </item>
     
@@ -44,12 +36,9 @@ It is increasingly popular for its many applications like Docker, Kubernetes and
       <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/installing-anaconda-on-wls/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/images/installing-anaconda-on-wls/anaconda_horizontal.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;/images/installing-anaconda-on-wls/anaconda_horizontal.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;difference-between-conda-and-anaconda&#34;&gt;Difference between conda and Anaconda&lt;/h1&gt;
-
 &lt;p&gt;conda is the package manager. Anaconda is a set of about a hundred packages including conda, numpy, scipy, ipython notebook, and so on.&lt;/p&gt;
-
 &lt;p&gt;You installed Miniconda, which is a smaller alternative to Anaconda that is just conda and its dependencies (as opposed to Anaconda, which is conda and a bunch of other packages like numpy, scipy, ipython notebook, etc.). Once you have Miniconda, you can easily install Anaconda into it with conda install anaconda.&lt;/p&gt;</description>
     </item>
     
@@ -59,19 +48,14 @@ It is increasingly popular for its many applications like Docker, Kubernetes and
       <pubDate>Sat, 12 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/install-windows-subsystem-for-linux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/images/install-windows-subsystem-for-linux/bashonwindows0.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;/images/install-windows-subsystem-for-linux/bashonwindows0.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;p&gt;For those who want to run Linux without dual booting your machine or  sharing resources by using a virtual machine, Windows Subsytem for Linux is the best option.&lt;/p&gt;
-
 &lt;p&gt;The Windows Subsystem for Linux lets us run Linux environments like popular command-line tools, utilities and applications &lt;em&gt;inside&lt;/em&gt; windows.
 Windows Subsytem for Linux or (WLS) its a layer fo running Linux binary files natively on Windows 10 and its awesome.  It provides a Linux-compatible kernel interface develop by Microsoft that then can run a GNU userland on top of it, like Ubuntu.&lt;/p&gt;
-
 &lt;h3 id=&#34;what-can-we-do-with-wls&#34;&gt;What can we do with WLS?&lt;/h3&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;short answer: Bash on windows!&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Having bash on Windows is a great tool for developers comming from a Linux/Unix enviroment that want/need to work with a Windows 10 machine.&lt;/p&gt;</description>
     </item>
     

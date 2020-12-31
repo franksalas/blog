@@ -24,7 +24,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.76.1 with theme even" />
 
 
 <link rel="canonical" href="/post/text-analysis-on-comedy-specials_01/" />
@@ -35,37 +35,31 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-<link href="/dist/even.2b92dec5.min.css" rel="stylesheet">
+
+<link href="/sass/main.min.400dc0a19409e36f6a7e28f0915b145e0be4b9cb2dd1fe055f23949a27e87d6d.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 <link rel="stylesheet" href="/css/custom.css">
 
 
 <meta property="og:title" content="Text Analysis on Comedy Specials:Part 1" />
 <meta property="og:description" content="
-
 $Comedy\ is\ subjective.$
-
 Comedy is about delivering a story that gets a laugh.
 What you find funny, someone else might find it offensive or even tragic.
 However, what do we know about comedy?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/text-analysis-on-comedy-specials_01/" />
-<meta property="article:published_time" content="2019-02-26T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-02-26T00:00:00&#43;00:00"/>
-
+<meta property="article:published_time" content="2019-02-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-02-26T00:00:00+00:00" />
 <meta itemprop="name" content="Text Analysis on Comedy Specials:Part 1">
 <meta itemprop="description" content="
-
 $Comedy\ is\ subjective.$
-
 Comedy is about delivering a story that gets a laugh.
 What you find funny, someone else might find it offensive or even tragic.
 However, what do we know about comedy?">
-
-
-<meta itemprop="datePublished" content="2019-02-26T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-02-26T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="764">
+<meta itemprop="datePublished" content="2019-02-26T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-02-26T00:00:00+00:00" />
+<meta itemprop="wordCount" content="756">
 
 
 
@@ -73,9 +67,7 @@ However, what do we know about comedy?">
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Text Analysis on Comedy Specials:Part 1"/>
 <meta name="twitter:description" content="
-
 $Comedy\ is\ subjective.$
-
 Comedy is about delivering a story that gets a laugh.
 What you find funny, someone else might find it offensive or even tragic.
 However, what do we know about comedy?"/>
@@ -91,14 +83,13 @@ However, what do we know about comedy?"/>
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135004061-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-135004061-1');
-</script>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+<script data-ad-client="ca-pub-8205562294979760" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 </head>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
@@ -163,108 +154,74 @@ However, what do we know about comedy?"/>
             <a href="/categories/web-scraping/"> web scraping </a>
             <a href="/categories/nlp/"> NLP </a>
             </div>
-        
       </div>
     </header>
 
     
     <div class="post-content">
-      <p><img src="/images/text-analysis-on-comedy-specials/nlp_comedy.png" alt="alt text" /></p>
-
+      <p><img src="/images/text-analysis-on-comedy-specials/nlp_comedy.png" alt="alt text"></p>
 <h1 id="comedy-is-subjective">$Comedy\ is\ subjective.$</h1>
-
 <p>Comedy is about delivering a story that gets a laugh.
 What you find funny, someone else might find it offensive or even tragic.
 However, what do we know about comedy?</p>
-
 <p>Is there an actual formula? If so how would one explain it with emoticons?</p>
-
 <h2 id="formula">Formula</h2>
-
 <blockquote>
-<h1 id="delta-t">😆 $=$ 😢 $+ \Delta t$</h1>
-
-<p>Where, $Comedy$, noted by 😆 is the sum an event causing great suffering relative one or a group of people,  noted by 😢,  and the passing of time relative to one or a group of people, noted by $\Delta t$.</p>
+<h1 id="----delta-t">😆 $=$ 😢 $+ \Delta t$</h1>
 </blockquote>
-
-<div class='align-center'>
-  <p><img src="https://media1.tenor.com/images/13343855f70f08e103604eb64bcb5a7a/tenor.gif?itemid=10089177" alt="" /></p>
-
-</div>
-
-<div class='align-center'>
-  <blockquote>
+<p>Where, $Comedy$, noted by 😆 is the sum an event causing great suffering relative one or a group of people,  noted by 😢,  and the passing of time relative to one or a group of people, noted by $\Delta t$.</p>
+<!-- raw HTML omitted -->
+<p><img src="https://media1.tenor.com/images/13343855f70f08e103604eb64bcb5a7a/tenor.gif?itemid=10089177" alt=""></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<blockquote>
 <p><strong>ok fine!</strong></p>
 </blockquote>
-
-</div>
-
+<!-- raw HTML omitted -->
 <p>In what it looks like a multipart tutorial, in  <strong>PART 1</strong> we will extract the transcript text for several standups that were televised over the years.</p>
-
 <h2 id="data-extraction">Data Extraction</h2>
-
 <p>To my knowledge, there is no public API for standups specials or anything related to comedy, so we need to get our data somewhere else.</p>
-
 <p>While searching, I stumbled on <strong><a href="https://scrapsfromtheloft.com">scrapsfromtheloft.com</a></strong> which had quite a few transcripts from several standup specials.</p>
-
 <p>We will get our data from <a href="https://scrapsfromtheloft.com/tag/stand-up-transcripts/">https://scrapsfromtheloft.com/tag/stand-up-transcripts/</a></p>
-
 <h1 id="understanding-the-structure-of-the-page">Understanding the structure of the page</h1>
-
 <p>Before we get coding, we need to find what data we need to extract and how its displayed on the page.</p>
-
 <p>Under <code>https://scrapsfromtheloft.com/tag/stand-up-transcripts/</code> is a list of posts with the tag <code>stand-up-transcripts</code></p>
-
-<p><img src="/images/text-analysis-on-comedy-specials/post_00.PNG" alt="alt text" /></p>
-
-<div class="admonition abstract"><p class="admonition-title">data to extract</p>
-  <ul>
+<p><img src="/images/text-analysis-on-comedy-specials/post_00.PNG" alt="alt text"></p>
+<!-- raw HTML omitted -->
+<ul>
 <li>name of comedy special</li>
 <li>link to the transcript text</li>
 <li>name of the comedian</li>
 <li>summary text of the special</li>
 </ul>
-
-</div>
-
-<p>Under Chrome we can inspect the page with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>, or  by right cliking and selecting &ldquo;inspect&rdquo;.</p>
-
+<!-- raw HTML omitted -->
+<p>Under Chrome we can inspect the page with the keyboard shortcut <!-- raw HTML omitted -->Ctrl<!-- raw HTML omitted --> + <!-- raw HTML omitted -->Shift<!-- raw HTML omitted --> + <!-- raw HTML omitted -->I<!-- raw HTML omitted -->, or  by right cliking and selecting &ldquo;inspect&rdquo;.</p>
 <p>We can see that each post is under <code>&lt;div class='fusion-post-content post-content'&gt;</code></p>
-
 <ul>
 <li>The title and transcript link are under the <code>&lt;H2&gt;</code> and <code>&lt;a&gt;</code> tag respectively</li>
 <li>We can extract the name of the comedian from the list of tags under <code>&lt;span class='meta-tags'&gt;</code></li>
 <li>The summary text is under <code>&lt;div class='fusion-post-content-container'&gt;</code></li>
 </ul>
-
-<p><img src="/images/text-analysis-on-comedy-specials/blog_post0.png" alt="alt text" /></p>
-
+<p><img src="/images/text-analysis-on-comedy-specials/blog_post0.png" alt="alt text"></p>
 <h2 id="web-scraping">Web Scraping</h2>
-
-<div class="admonition abstract"><p class="admonition-title">tools &amp; libraries</p>
-  <ul>
+<!-- raw HTML omitted -->
+<ul>
 <li>Python</li>
 <li>requests</li>
 <li>BeautifulSoup</li>
 <li>Pandas</li>
 <li>Jupyter Notebook</li>
 </ul>
-
-</div>
-
+<!-- raw HTML omitted -->
 <p>Now that we know what data to extract,  we will need to find a way to  download the page.</p>
-
 <p>I found a <a href="https://www.peterbe.com/plog/best-practice-with-retries-with-requests">great blog</a> post on best practice on how to use requests so I will modify some of his code to fit my need.</p>
-
 <h3 id="steps">Steps</h3>
-
 <ol>
 <li>create a functon called<code>requests_retry_session()</code> that extracts data from webpage</li>
 <li>create a function to called <code>get_response()</code>  that calls <code>request_retry_session()</code> and handles errors and exceptions.</li>
 <li>create a function called <code>bs_parser_post()</code> that parses and extracts the requierd data using Beautiful soup.</li>
 <li>create a dataframe with the extracted data</li>
 </ol>
-
 <pre><code class="language-python"># libraries to import
 import requests
 import time
@@ -277,7 +234,6 @@ from IPython.core.display import clear_output
 from warnings import warn
 import os
 </code></pre>
-
 <pre><code class="language-python"># source: https://www.peterbe.com/plog/best-practice-with-retries-with-requests
 
 # handles the request call
@@ -329,7 +285,7 @@ def bs_parser_post(response):
         summaries.append(i.find('div', class_ = 'fusion-post-content-container').p.text)  # summary text
     return titles,summaries,tags,links
 </code></pre>
-
+<h2 id="heading"></h2>
 <pre><code class="language-python"># run our code
 
 url = 'https://scrapsfromtheloft.com/tag/stand-up-transcripts/'
@@ -341,7 +297,6 @@ df = pd.DataFrame({'raw_title': titles,
                    'tags':tags,
                    'link': links})
 </code></pre>
-
 <pre><code class="language-python"># check dataframe
 df.info()
 &lt;class 'pandas.core.frame.DataFrame'&gt;
@@ -354,15 +309,10 @@ link         244 non-null object
 dtypes: object(4)
 memory usage: 7.7+ KB
 </code></pre>
-
 <h2 id="results">Results</h2>
-
-<p><img src="/images/text-analysis-on-comedy-specials/post_13.PNG" alt="alt text" /></p>
-
+<p><img src="/images/text-analysis-on-comedy-specials/post_13.PNG" alt="alt text"></p>
 <p>We now have a dataframe with the data we scraped but it needs some cleaning.</p>
-
 <p>We can clean up the tag column to display the name only.</p>
-
 <pre><code class="language-python">df.tags = df.tags.str.replace('Stand-up transcripts','')
 df.tags = df.tags.str.replace('Gun control','')
 df.tags = df.tags.str.replace('SATURDAY NIGHT LIVE','')
@@ -373,9 +323,7 @@ df.tags = df.tags.str.replace(',','')
 # Correct name text
 df.tags = df.tags.str.title()
 </code></pre>
-
 <p>Change the tag column name and reorder the columns</p>
-
 <pre><code class="language-python"># rename column
 df.rename(columns={&quot;tags&quot;: &quot;name&quot;},inplace=True)
 
@@ -384,18 +332,14 @@ df = df[['name','raw_title','summary','link']]
 
 df.head()
 </code></pre>
-
-<p><img src="/images/text-analysis-on-comedy-specials/post_14.PNG" alt="alt text" /></p>
-
+<p><img src="/images/text-analysis-on-comedy-specials/post_14.PNG" alt="alt text"></p>
 <p>Thats enough for today.</p>
-
 <p>On the next tutorial we will extract the transcript text from each link in our dataframe.</p>
-
-<p><a href="https://github.com/franksalas/comedy_text_analysis/blob/master/notebook/01_get_list.ipynb">NOTEBOOK LINK</a></p>
+<p><a href="https://github.com/franksalas/comedy_text_analysis/blob/master/notebook/">NOTEBOOK LINK</a></p>
     </div>
 
-    <footer class="post-footer">
-      
+    
+
       <nav class="post-nav">
         
         <a class="next" href="/post/create-alias-for-windows-app/">
@@ -422,14 +366,13 @@ df.head()
 
 <div class="copyright">
 
-  <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#34495E', 'K3K4QVF2');kofiwidget2.draw();</script> 
 
-  
+ <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="salascodes" data-color="#3f4344" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
   <span class="copyright-year">
     &copy; 
     2016 - 
-    2019
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
@@ -446,7 +389,10 @@ df.head()
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/dist/even.afb34c68.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.dd3e995117592e5c140742582d2d3ff431072a2ea0bd69dfb1f12ec131d9c7b7.js"></script>
   <script type="text/javascript">
     window.MathJax = {
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
@@ -459,6 +405,18 @@ df.head()
 
 
 
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-135004061-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
 

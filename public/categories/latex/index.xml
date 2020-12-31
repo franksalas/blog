@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>laTex on sal.as</title>
@@ -6,11 +6,7 @@
     <description>Recent content in laTex on sal.as</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Feb 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/latex/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 09 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="/categories/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math Latex Examples</title>
       <link>/post/math-latex-examples/</link>
@@ -18,13 +14,9 @@
       
       <guid>/post/math-latex-examples/</guid>
       <description>&lt;h2 id=&#34;latex&#34;&gt;$\LaTeX$&lt;/h2&gt;
-
 &lt;p&gt;LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.&lt;/p&gt;
-
 &lt;p&gt;For now,  we will focus just on writing math equations inside of a Markdown file or a jupyter notebook cell.&lt;/p&gt;
-
 &lt;p&gt;In most Markdown editors, you write a math equation inside two single dollar signs &lt;code&gt;$eqt$&lt;/code&gt;, or double dollar signs&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$
 eqt
 $$

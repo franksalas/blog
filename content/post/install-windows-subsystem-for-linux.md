@@ -26,7 +26,7 @@ For those who want to run Linux without dual booting your machine or  sharing re
 The Windows Subsystem for Linux lets us run Linux environments like popular command-line tools, utilities and applications *inside* windows.
 Windows Subsytem for Linux or (WLS) its a layer fo running Linux binary files natively on Windows 10 and its awesome.  It provides a Linux-compatible kernel interface develop by Microsoft that then can run a GNU userland on top of it, like Ubuntu.
 
-### What can we do with WLS?
+### What can we do with WSL?
 
 > short answer: Bash on windows!
 
