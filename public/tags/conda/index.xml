@@ -8,11 +8,11 @@
     <language>en</language>
     <lastBuildDate>Tue, 12 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/conda/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Installing Anaconda on  WLS</title>
-      <link>/post/installing-anaconda-on-wls/</link>
+      <title>Installing Anaconda on  WSL</title>
+      <link>/post/installing-anaconda-on-wsl/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/installing-anaconda-on-wls/</guid>
+      <guid>/post/installing-anaconda-on-wsl/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/installing-anaconda-on-wls/anaconda_horizontal.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;difference-between-conda-and-anaconda&#34;&gt;Difference between conda and Anaconda&lt;/h1&gt;
 &lt;p&gt;conda is the package manager. Anaconda is a set of about a hundred packages including conda, numpy, scipy, ipython notebook, and so on.&lt;/p&gt;
